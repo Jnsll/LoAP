@@ -42,7 +42,20 @@ BVE;30;Geomorphology + Vulnerability + Saturation;25;0.0298
 SUB;9;Geomorphology;5;0.046478
 SUB;9;Geomorphology;10;0.035473
 SUB;9;Geomorphology;15;0.032998
+SUB;9;Geomorphology;20;0.0281195
+SUB;9;Geomorphology;25;0.022474
 SUB;9;Geomorphology + Vulnerability;5;0.050978
 SUB;9;Geomorphology + Vulnerability;10;0.0331859999999999
 SUB;9;Geomorphology + Vulnerability;15;0.0333686666666666
+SUB;9;Geomorphology + Vulnerability;20;0.0276845
+SUB;9;Geomorphology + Vulnerability;25;0.0228448
 SUB;30;Geomorphology;5;0.045804
+SUB;30;Geomorphology;10;0.0473569999999999
+SUB;30;Geomorphology;15;0.0357093333333333
+SUB;30;Geomorphology;20;0.034179
+SUB;30;Geomorphology;25;0.0293872
+SUB;30;Geomorphology + Vulnerability;5;0.048774
+SUB;30;Geomorphology + Vulnerability;10;0.0456479999999999
+SUB;30;Geomorphology + Vulnerability;15;0.0353046666666666
+SUB;30;Geomorphology + Vulnerability;20;0.035961
+SUB;30;Geomorphology + Vulnerability;25;0.0287608
