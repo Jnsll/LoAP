@@ -1,0 +1,12 @@
+Scale;Number of Rates;Features;Number of Cases;Mean of Quality Metric
+BVE;9;Geomorphology;5;0.01872
+BVE;9;Geomorphology;10;0.0209059999999999
+BVE;9;Geomorphology;15;0.0194386666666666
+BVE;9;Geomorphology;20;0.019926
+BVE;9;Saturation;5;0.0079499999999999
+BVE;9;Saturation;10;0.008274
+BVE;9;Saturation;15;0.00783
+BVE;9;Saturation;20;0.008679
+BVE;9;Saturation;25;0.0087599999999999
+BVE;9;Geomorphology + Vulnerability;15;0.016646
+BVE;9;Geomorphology + Vulnerability;20;0.016131
