@@ -1,3 +1,7 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+
 import argparse
 import pandas as pd
 import numpy as np
@@ -5,7 +9,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error
 from sklearn.metrics import r2_score
 import csv
-import random 
+import random
 random.seed(42)
 
 
@@ -67,7 +71,7 @@ def workflow_mix_split_train_test_SUB_one_case(nb_rates, features, scale, size_d
     for site in sub_completes:
         for sub in sub_completes[site]:
             lst_couple_site_sub.append([site, sub])
-    
+
         #print(training_nb_sub, len(lst_couple_site_sub))
     for case in lst_couple_site_sub:
         training_nb_sub = 1
@@ -164,7 +168,6 @@ def workflow_mix_split_train_test_BVE_one_case(nb_rates, features, scale, size_d
 def retrieve_list_cases_and_pick_training_cases_BVE_one_case(data_complete, case):
     sites_completes = data_complete.Site.unique()
     #training_nb_cases = round((len(sites_completes) * 80)/100)
-    
 
     #training_cases = random.sample(sites_completes.tolist(), len(sites_completes)-1)
 
@@ -172,7 +175,7 @@ def retrieve_list_cases_and_pick_training_cases_BVE_one_case(data_complete, case
     #data_test = pd.DataFrame(columns=data_complete.columns)
     data_test = data_complete.loc[(data_complete['Site'] == case)]
     #    data_train = pd.concat([data_train, train], sort=False)
-    
+
     #Build test data
     training_cases = [x for x in sites_completes.tolist() if x not in [case]] + [x for x in [case] if x not in sites_completes.tolist()]
     data_train = pd.DataFrame(columns=data_complete.columns)
@@ -186,7 +189,7 @@ def retrieve_list_cases_and_pick_training_cases_BVE_one_case(data_complete, case
 def retrieve_list_cases_and_pick_training_cases_SUB_one_case(data_complete, case, sites_completes):
     #sites_completes = data_complete.Site.unique()
     #training_nb_cases = round((len(sites_completes) * 80)/100)
-    
+
 
     #training_cases = random.sample(sites_completes.tolist(), len(sites_completes)-1)
 
@@ -194,7 +197,7 @@ def retrieve_list_cases_and_pick_training_cases_SUB_one_case(data_complete, case
     #data_test = pd.DataFrame(columns=data_complete.columns)
     data_test = data_complete.loc[(data_complete['Site'] == case[0]) & (data_complete['SubCatch'] == case[1])]
     #    data_train = pd.concat([data_train, train], sort=False)
-    
+
     #Build test data
     training_cases = [x for x in sites_completes if x not in [case]] + [x for x in [case] if x not in sites_completes]
     data_train = pd.DataFrame(columns=data_complete.columns)
@@ -224,7 +227,7 @@ def extract_nb_sites_and_subs(data_no_na):
         if pd.isna(nb_sub):
             continue
         nb_subs[site_number] = nb_sub
-    
+
     return nb_sites, nb_subs
 
 
@@ -254,7 +257,7 @@ def extract_complete_data_for_BVE(data_no_na, nb_rates):
     data_complete = pd.DataFrame(columns=data_no_na.columns)
     sub_completes = {}
     nb_max_sites = int(data_no_na["Site"].max())
-    
+
     for site in range(1, nb_max_sites+1):
         data_site = data_no_na.loc[(data_no_na['Site'] == site)]
     #if data_site_sub.empty:
@@ -310,7 +313,7 @@ def split_subs_into_training_test_datasets_SUB_one_case(sub_completes):
 def retrieve_list_cases_and_pick_training_cases_BVE(data_complete):
     sites_completes = data_complete.Site.unique()
     training_nb_cases = round((len(sites_completes) * 80)/100)
-    
+
 
     training_cases = random.sample(sites_completes.tolist(), training_nb_cases)
 
@@ -319,7 +322,7 @@ def retrieve_list_cases_and_pick_training_cases_BVE(data_complete):
     for case in training_cases:
         train = data_complete.loc[(data_complete['Site'] == case)]
         data_train = pd.concat([data_train, train], sort=False)
-    
+
     #Build test data
     test_cases = [x for x in sites_completes.tolist() if x not in training_cases] + [x for x in training_cases if x not in sites_completes.tolist()]
     data_test = pd.DataFrame(columns=data_complete.columns)
