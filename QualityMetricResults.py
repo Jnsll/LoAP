@@ -37,7 +37,7 @@ def create_dataframe_from_qualities_dict(qualities):
 
 scales = ["BVE", "SUB"]
 nb_replication = 100
-sizes = [5, 10, 15, 20, 25]
+sizes = [5, 10, 15, 20, 25, 30, 35, 40, 45]
 features = ["Geomorph", "Saturation", "Geomorph_CVHV", "Geomorph_CVHV_Saturation"]
 nbs_rates = [9, 30]
 
