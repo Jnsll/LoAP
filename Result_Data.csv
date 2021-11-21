@@ -40,3 +40,7 @@ BVE;30;Geomorphology + Vulnerability + Saturation;15;0.0295446666666666
 BVE;30;Geomorphology + Vulnerability + Saturation;20;0.0300255
 BVE;30;Geomorphology + Vulnerability + Saturation;25;0.0298
 SUB;9;Geomorphology;5;0.046478
+SUB;9;Geomorphology;10;0.035473
+SUB;9;Geomorphology;15;0.032998
+SUB;9;Geomorphology + Vulnerability;5;0.050978
+SUB;9;Geomorphology + Vulnerability;10;0.0331859999999999
