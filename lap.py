@@ -56,53 +56,100 @@ def workflow_mix_split_train_test_SUB(nb_rates, features, scale, size_data, nb_r
         quality_metric_replication.append(quality_metric_sum)
     store_metrics_replication(quality_metric_replication, nb_replication, nb_rates, features, scale, size_data)
 
-
 def workflow_mix_split_train_test_SUB_one_case(nb_rates, features, scale, size_data, nb_replication=1):
-    #random.seed(42)
     quality_metric_replication = []
-
     data_no_na = retrieve_and_clean_data(nb_rates, features, scale)
-        #print(data_no_na)
+    #print(data_no_na)
     nb_sites, nb_subs =  extract_nb_sites_and_subs(data_no_na)
-        #print(nb_sites, nb_subs)
+    #print(nb_sites, nb_subs)
     data_complete, sub_completes = extract_complete_data(data_no_na, nb_subs, nb_rates)
-        #print(sub_completes)
+    #print(sub_completes)
     lst_couple_site_sub = []
     for site in sub_completes:
         for sub in sub_completes[site]:
             lst_couple_site_sub.append([site, sub])
 
-        #print(training_nb_sub, len(lst_couple_site_sub))
-    for case in lst_couple_site_sub:
-        training_nb_sub = 1
-        data_train, data_test, training_cases, test_cases = retrieve_list_cases_and_pick_training_cases_SUB_one_case(data_complete, case, lst_couple_site_sub)    
-    #data_train, data_test, training_cases, test_cases = build_training_and_test_datasets(data_complete, lst_couple_site_sub, training_nb_sub)
-    #print(data_train)
-        X_train, y_train, X_test, y_test = extract_features_and_outputs_datasets_SUB(data_train, data_test)
-    #print(X_train, y_train)
-        forest = train_forest(X_train, y_train)
-        y_test_pred = forest.predict(X_test)
-        mse, r2 = compute_standard_metrics(y_test, y_test_pred)
-        print("MSE: ", mse)
-        print("R2: ", r2)
-    #print(training_cases)
-        data_test = update_and_store_data_with_h_pred(data_test, y_test, y_test_pred, training_cases, scale, size_data, one_case=True)
-    #print(test_cases)
-    #print(data_test.loc[(data_test['Site'] == 19)])
-    #print(data_test.loc[(data_test['Site'] == 19) & (data_test['SubCatch'] == 1)])
+    print(lst_couple_site_sub)
+    for replication in range(1, nb_replication+1):
+        print("Replication: ", replication)
+        lst_reduced_cases = reduce_size_BVE(lst_couple_site_sub, size_data)
+        for case in lst_reduced_cases:
+            training_nb_sub = 1
+            data_train, data_test, training_cases, test_cases = retrieve_list_cases_and_pick_training_cases_SUB_one_case(data_complete, case, lst_couple_site_sub)    
 
-        p_reals, p_preds = extract_preals_and_ppreds(data_test, test_cases, nb_rates)
-        print(p_reals, p_preds)
-        hreal_preals, hreal_ppreds, quality_metric = extract_hreal_for_preal_and_ppred_and_quality_metric(data_test, test_cases, p_reals, p_preds)
-        print(hreal_preals, hreal_ppreds)
-        print(quality_metric)
-        quality_metric_no_nan = [x for x in quality_metric if np.isnan(x) == False]
-        quality_metric_sum = round(sum(quality_metric_no_nan),3)
-        print("Quality metric (sum of introduced error): ", quality_metric_sum)
-        quality_metric = [0 if x != x else x for x in quality_metric]
-        store_metrics(test_cases, training_cases, lst_couple_site_sub, mse, r2, quality_metric, quality_metric_sum, p_reals, p_preds, hreal_preals, hreal_ppreds, scale, size_data, one_case=True)
-        quality_metric_replication.append(quality_metric_sum)
+            X_train, y_train, X_test, y_test = extract_features_and_outputs_datasets_SUB(data_train, data_test)
+    #print(X_train, y_train)
+            forest = train_forest(X_train, y_train)
+            y_test_pred = forest.predict(X_test)
+            mse, r2 = compute_standard_metrics(y_test, y_test_pred)
+            print("MSE: ", mse)
+            print("R2: ", r2)
+    #print(training_cases)
+            data_test = update_and_store_data_with_h_pred(data_test, y_test, y_test_pred, training_cases, scale, size_data, one_case=True)
+
+
+            p_reals, p_preds = extract_preals_and_ppreds(data_test, test_cases, nb_rates)
+            print(p_reals, p_preds)
+            hreal_preals, hreal_ppreds, quality_metric = extract_hreal_for_preal_and_ppred_and_quality_metric(data_test, test_cases, p_reals, p_preds)
+            print(hreal_preals, hreal_ppreds)
+            print(quality_metric)
+            quality_metric_no_nan = [x for x in quality_metric if np.isnan(x) == False]
+            quality_metric_sum = round(sum(quality_metric_no_nan),3)
+            print("Quality metric (sum of introduced error): ", quality_metric_sum)
+            quality_metric = [0 if x != x else x for x in quality_metric]
+            store_metrics(test_cases, training_cases, lst_couple_site_sub, mse, r2, quality_metric, quality_metric_sum, p_reals, p_preds, hreal_preals, hreal_ppreds, scale, size_data, one_case=True)
+            quality_metric_replication.append(quality_metric_sum)
     store_metrics_replication(quality_metric_replication, nb_replication, nb_rates, features, scale, size_data, one_case=True)
+
+
+
+
+# def workflow_mix_split_train_test_SUB_one_case(nb_rates, features, scale, size_data, nb_replication=1):
+#     #random.seed(42)
+#     quality_metric_replication = []
+
+#     data_no_na = retrieve_and_clean_data(nb_rates, features, scale)
+#         #print(data_no_na)
+#     nb_sites, nb_subs =  extract_nb_sites_and_subs(data_no_na)
+#         #print(nb_sites, nb_subs)
+#     data_complete, sub_completes = extract_complete_data(data_no_na, nb_subs, nb_rates)
+#         #print(sub_completes)
+#     lst_couple_site_sub = []
+#     for site in sub_completes:
+#         for sub in sub_completes[site]:
+#             lst_couple_site_sub.append([site, sub])
+
+#         #print(training_nb_sub, len(lst_couple_site_sub))
+#     for case in lst_couple_site_sub:
+#         training_nb_sub = 1
+#         data_train, data_test, training_cases, test_cases = retrieve_list_cases_and_pick_training_cases_SUB_one_case(data_complete, case, lst_couple_site_sub)    
+#     #data_train, data_test, training_cases, test_cases = build_training_and_test_datasets(data_complete, lst_couple_site_sub, training_nb_sub)
+#     #print(data_train)
+#         X_train, y_train, X_test, y_test = extract_features_and_outputs_datasets_SUB(data_train, data_test)
+#     #print(X_train, y_train)
+#         forest = train_forest(X_train, y_train)
+#         y_test_pred = forest.predict(X_test)
+#         mse, r2 = compute_standard_metrics(y_test, y_test_pred)
+#         print("MSE: ", mse)
+#         print("R2: ", r2)
+#     #print(training_cases)
+#         data_test = update_and_store_data_with_h_pred(data_test, y_test, y_test_pred, training_cases, scale, size_data, one_case=True)
+#     #print(test_cases)
+#     #print(data_test.loc[(data_test['Site'] == 19)])
+#     #print(data_test.loc[(data_test['Site'] == 19) & (data_test['SubCatch'] == 1)])
+
+#         p_reals, p_preds = extract_preals_and_ppreds(data_test, test_cases, nb_rates)
+#         print(p_reals, p_preds)
+#         hreal_preals, hreal_ppreds, quality_metric = extract_hreal_for_preal_and_ppred_and_quality_metric(data_test, test_cases, p_reals, p_preds)
+#         print(hreal_preals, hreal_ppreds)
+#         print(quality_metric)
+#         quality_metric_no_nan = [x for x in quality_metric if np.isnan(x) == False]
+#         quality_metric_sum = round(sum(quality_metric_no_nan),3)
+#         print("Quality metric (sum of introduced error): ", quality_metric_sum)
+#         quality_metric = [0 if x != x else x for x in quality_metric]
+#         store_metrics(test_cases, training_cases, lst_couple_site_sub, mse, r2, quality_metric, quality_metric_sum, p_reals, p_preds, hreal_preals, hreal_ppreds, scale, size_data, one_case=True)
+#         quality_metric_replication.append(quality_metric_sum)
+#     store_metrics_replication(quality_metric_replication, nb_replication, nb_rates, features, scale, size_data, one_case=True)
 
 
 
@@ -279,6 +326,11 @@ def reduce_size(data_complete, size_data):
         return input_data
 
 
+def reduce_size_BVE(lst_couple_site_sub, size_data):
+    if (size_data is not None) and (len(lst_couple_site_sub) > size_data):
+        selected_sites = random.sample(lst_couple_site_sub, size_data)
+        print("Selected sites: ", selected_sites)
+        return selected_sites
 
 def split_subs_into_training_test_datasets(sub_completes):
 # Get number of subcatch for the split of data training / test : 80 / 20

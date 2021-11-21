@@ -3,10 +3,39 @@ BVE;9;Geomorphology;5;0.01872
 BVE;9;Geomorphology;10;0.0209059999999999
 BVE;9;Geomorphology;15;0.0194386666666666
 BVE;9;Geomorphology;20;0.019926
+BVE;9;Geomorphology;25;0.02077
 BVE;9;Saturation;5;0.0079499999999999
 BVE;9;Saturation;10;0.008274
 BVE;9;Saturation;15;0.00783
 BVE;9;Saturation;20;0.008679
 BVE;9;Saturation;25;0.0087599999999999
+BVE;9;Geomorphology + Vulnerability;5;0.014646
+BVE;9;Geomorphology + Vulnerability;10;0.015764
 BVE;9;Geomorphology + Vulnerability;15;0.016646
 BVE;9;Geomorphology + Vulnerability;20;0.016131
+BVE;9;Geomorphology + Vulnerability;25;0.01616
+BVE;9;Geomorphology + Vulnerability + Saturation;5;0.019638
+BVE;9;Geomorphology + Vulnerability + Saturation;10;0.020444
+BVE;9;Geomorphology + Vulnerability + Saturation;15;0.019896
+BVE;9;Geomorphology + Vulnerability + Saturation;20;0.0199515
+BVE;9;Geomorphology + Vulnerability + Saturation;25;0.02032
+BVE;30;Geomorphology;5;0.017968
+BVE;30;Geomorphology;10;0.0176039999999999
+BVE;30;Geomorphology;15;0.0175726666666666
+BVE;30;Geomorphology;20;0.017569
+BVE;30;Geomorphology;25;0.01764
+BVE;30;Saturation;5;0.029048
+BVE;30;Saturation;10;0.025345
+BVE;30;Saturation;15;0.0249833333333333
+BVE;30;Saturation;20;0.025488
+BVE;30;Saturation;25;0.025
+BVE;30;Geomorphology + Vulnerability;5;0.016908
+BVE;30;Geomorphology + Vulnerability;10;0.017459
+BVE;30;Geomorphology + Vulnerability;15;0.0173406666666666
+BVE;30;Geomorphology + Vulnerability;20;0.017262
+BVE;30;Geomorphology + Vulnerability;25;0.01732
+BVE;30;Geomorphology + Vulnerability + Saturation;5;0.0309519999999999
+BVE;30;Geomorphology + Vulnerability + Saturation;10;0.031524
+BVE;30;Geomorphology + Vulnerability + Saturation;15;0.0295446666666666
+BVE;30;Geomorphology + Vulnerability + Saturation;20;0.0300255
+BVE;30;Geomorphology + Vulnerability + Saturation;25;0.0298
