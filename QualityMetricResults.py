@@ -35,7 +35,7 @@ def create_dataframe_from_qualities_dict(qualities):
                     result.loc[len(result.index)] = [scale, nb_rates, feat, size, qualities[scale][nb_rates][feature][size]]
     return result
 
-scales = ["BVE"]
+scales = ["BVE", "SUB"]
 nb_replication = 100
 sizes = [5, 10, 15, 20, 25]
 features = ["Geomorph", "Saturation", "Geomorph_CVHV", "Geomorph_CVHV_Saturation"]
