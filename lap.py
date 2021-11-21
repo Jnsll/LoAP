@@ -75,7 +75,7 @@ def workflow_mix_split_train_test_SUB_one_case(nb_rates, features, scale, size_d
         lst_reduced_cases = reduce_size_BVE(lst_couple_site_sub, size_data)
         for case in lst_reduced_cases:
             training_nb_sub = 1
-            data_train, data_test, training_cases, test_cases = retrieve_list_cases_and_pick_training_cases_SUB_one_case(data_complete, case, lst_couple_site_sub)    
+            data_train, data_test, training_cases, test_cases = retrieve_list_cases_and_pick_training_cases_SUB_one_case(data_complete, case, lst_reduced_cases)    
 
             X_train, y_train, X_test, y_test = extract_features_and_outputs_datasets_SUB(data_train, data_test)
     #print(X_train, y_train)
@@ -87,7 +87,6 @@ def workflow_mix_split_train_test_SUB_one_case(nb_rates, features, scale, size_d
     #print(training_cases)
             data_test = update_and_store_data_with_h_pred(data_test, y_test, y_test_pred, training_cases, scale, size_data, one_case=True)
 
-
             p_reals, p_preds = extract_preals_and_ppreds(data_test, test_cases, nb_rates)
             print(p_reals, p_preds)
             hreal_preals, hreal_ppreds, quality_metric = extract_hreal_for_preal_and_ppred_and_quality_metric(data_test, test_cases, p_reals, p_preds)
@@ -97,7 +96,7 @@ def workflow_mix_split_train_test_SUB_one_case(nb_rates, features, scale, size_d
             quality_metric_sum = round(sum(quality_metric_no_nan),3)
             print("Quality metric (sum of introduced error): ", quality_metric_sum)
             quality_metric = [0 if x != x else x for x in quality_metric]
-            store_metrics(test_cases, training_cases, lst_couple_site_sub, mse, r2, quality_metric, quality_metric_sum, p_reals, p_preds, hreal_preals, hreal_ppreds, scale, size_data, one_case=True)
+            store_metrics(test_cases, training_cases, lst_reduced_cases, mse, r2, quality_metric, quality_metric_sum, p_reals, p_preds, hreal_preals, hreal_ppreds, scale, size_data, one_case=True)
             quality_metric_replication.append(quality_metric_sum)
     store_metrics_replication(quality_metric_replication, nb_replication, nb_rates, features, scale, size_data, one_case=True)
 
