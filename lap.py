@@ -189,7 +189,9 @@ def workflow_mix_split_train_test_BVE_one_case(nb_rates, features, scale, size_d
         sites_completes = input_data.Site.unique()
         print(sites_completes)
         for site in sites_completes:
-            data_train, data_test, training_cases, test_cases = retrieve_list_cases_and_pick_training_cases_BVE_one_case(data_complete, site)
+            data_train, data_test, training_cases, test_cases = retrieve_list_cases_and_pick_training_cases_BVE_one_case(input_data, site)
+            print("Testing Cases: ", test_cases)
+            print("Training cases: ", training_cases)
             X_train, y_train, X_test, y_test = extract_features_and_outputs_datasets_BVE(data_train, data_test)
             forest = train_forest(X_train, y_train)
             y_test_pred = forest.predict(X_test)
@@ -206,7 +208,8 @@ def workflow_mix_split_train_test_BVE_one_case(nb_rates, features, scale, size_d
             quality_metric_no_nan = [x for x in quality_metric if np.isnan(x) == False]
             quality_metric_sum = round(sum(quality_metric_no_nan),3)
             print("Quality metric (sum of introduced error): ", quality_metric_sum)
-            store_metrics_BVE(test_cases, training_cases, data_complete.Site.unique(), mse, r2, quality_metric, quality_metric_sum, p_reals, p_preds, hreal_preals, hreal_ppreds, scale, size_data, one_case=True)
+            #print("", np.average(quality_metric_sums))
+            store_metrics_BVE(test_cases, training_cases, input_data.Site.unique(), mse, r2, quality_metric, quality_metric_sum, p_reals, p_preds, hreal_preals, hreal_ppreds, scale, size_data, one_case=True)
             quality_metric_replication.append(quality_metric_sum)
     store_metrics_replication(quality_metric_replication, nb_replication, nb_rates, features, scale, size_data, one_case=True)
 

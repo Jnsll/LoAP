@@ -12,14 +12,14 @@ def generate_dict_of_qualities(scales, nbs_rates, features, sizes, nb_replicatio
                 for size in sizes:
                     try:
                         data = pd.read_csv("data/Output_Data/Replication/Prediction_data_complete_Rates_"+ str(nb_rates) +"_Features_" +  str(feature) + "_" + str(scale) + "_Replication_" + str(nb_replication) + "_OneCase_Size_" + str(size) + ".csv", sep=";", index_col=None)
-                        qualities[scale][nb_rates][feature][size] = float(data["Mean quality metric"][0])
+                        qualities[scale][nb_rates][feature][size] = [float(data["Mean quality metric"][0]), float(data["STD quality metric"][0])]
                     except:
                         continue
 
     return qualities
 
 def create_dataframe_from_qualities_dict(qualities):
-    result = pd.DataFrame(columns=["Scale","Number of Rates","Features","Number of Cases","Mean of Quality Metric"])
+    result = pd.DataFrame(columns=["Scale","Number of Rates","Features","Number of Cases","Mean of Quality Metric", "Std of Quality Metric"])
     for scale in qualities:
         for nb_rates in qualities[scale]:
             for feature in qualities[scale][nb_rates]:
@@ -32,7 +32,7 @@ def create_dataframe_from_qualities_dict(qualities):
                         feat = "Geomorphology + Vulnerability + Saturation"
                     else:
                         feat = feature
-                    result.loc[len(result.index)] = [scale, nb_rates, feat, size, qualities[scale][nb_rates][feature][size]]
+                    result.loc[len(result.index)] = [scale, nb_rates, feat, size, qualities[scale][nb_rates][feature][size][0], qualities[scale][nb_rates][feature][size][1]]
     return result
 
 scales = ["BVE", "SUB"]
