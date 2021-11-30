@@ -1,0 +1,24 @@
+Number of Cases;Scale;Number of Rates;Features;Mean of Quality Metric
+25;BVE;9;Saturation;0.00876
+25;BVE;9;Geomorph;0.02066
+25;BVE;9;Geomorph + Vulnerability;0.01616
+25;BVE;9;Geomorph + Vulnerability + Saturation;0.02032
+25;BVE;30;Saturation;0.02576
+25;BVE;30;Geomorph;0.01764
+25;BVE;30;Geomorph + Vulnerability;0.01732
+25;BVE;30;Geomorph + Vulnerability + Saturation;0.0298
+10;BVE;9;Geomorph;0.0063
+11;BVE;9;Geomorph;0.0065
+10;BVE;9;Geomorph + Vulnerability;0.007
+15;BVE;9;Geomorph + Vulnerability;0.0095
+18;BVE;9;Geomorph + Vulnerability;0.0129
+20;BVE;9;Geomorph + Vulnerability;0.0137
+22;BVE;9;Geomorph + Vulnerability;0.0152
+17;BVE;9;Saturation;0.0061
+8;BVE;9;Saturation;0.00093
+47;SUB;9;Geomorph;0.0097
+47;SUB;9;Geomorph + Vulnerability;0.0129
+47;SUB;30;Geomorph;0.0207
+47;SUB;30;Geomorph + Vulnerability;0.0297
+10;BVE;9;Saturation;0.008274
+15;BVE;9;Geomorph;0.019438666666666667

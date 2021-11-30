@@ -1,0 +1,4 @@
+Geomorphology [-0.00049799  0.03190079]
+Roots: [64.05883361]
+Geomorphology + Vulnerability [6.79000e-05 1.48509e-02]
+Roots: [-218.71723122]

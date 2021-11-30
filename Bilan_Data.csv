@@ -1,0 +1,17 @@
+Scale; Nb points; Nb Cases; Nb Rates; Features; Status
+BVE; 225; 25; 9; Saturation; Done
+BVE; 225; 25; 9; Geomorph; Done
+BVE; 225; 25; 9; Geomorph + CVHV; Done
+BVE; 225; 25;9; Geomorph + CVHV + Saturation; Done
+BVE; 750; 25;30; Saturation; Done
+BVE; 750; 25;30; Geomorph; Done
+BVE; 750; 25;30; Geomorph + CVHV; Done
+BVE; 750; 25;30; Geomorph + CVHV + Saturation; Done
+SUB; ;;9; Saturation;
+SUB; ;47 ;9; Geomorph; Done
+SUB; ;47 ;9; Geomorph + CVHV; Done
+SUB; ;;9; Geomorph + CVHV + Saturation;
+SUB; ;;30; Saturation;
+SUB; ;47;30; Geomorph; Done
+SUB; ;47;30; Geomorph + CVHV; Done
+SUB; ;;30; Geomorph + CVHV + Saturation;

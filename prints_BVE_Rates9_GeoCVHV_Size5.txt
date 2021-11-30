@@ -1,0 +1,2800 @@
+Replication:  1
+Selected sites:  [25.0, 7.0, 1.0, 29.0, 13.0]
+[25.  7.  1. 29. 13.]
+Testing Cases:  [25.0]
+Training cases:  [7.0, 1.0, 29.0, 13.0]
+MSE:  0.0051434655368895865
+R2:  0.29898632504263767
+Quality metric (sum of introduced error):  0
+Testing Cases:  [7.0]
+Training cases:  [25.0, 1.0, 29.0, 13.0]
+MSE:  0.008777389146621331
+R2:  0.5860172028090893
+Quality metric (sum of introduced error):  0
+Testing Cases:  [1.0]
+Training cases:  [25.0, 7.0, 29.0, 13.0]
+MSE:  0.004374295488401143
+R2:  0.7795123134447809
+Quality metric (sum of introduced error):  0.063
+Testing Cases:  [29.0]
+Training cases:  [25.0, 7.0, 1.0, 13.0]
+MSE:  0.0008428455041014955
+R2:  0.9042110478364649
+Quality metric (sum of introduced error):  0
+Testing Cases:  [13.0]
+Training cases:  [25.0, 7.0, 1.0, 29.0]
+MSE:  0.016537684633343278
+R2:  -10.775654417678533
+Quality metric (sum of introduced error):  0
+Replication:  2
+Selected sites:  [12.0, 8.0, 29.0, 7.0, 27.0]
+[12.  8. 29.  7. 27.]
+Testing Cases:  [12.0]
+Training cases:  [8.0, 29.0, 7.0, 27.0]
+MSE:  0.006878350690679793
+R2:  -0.27967407117328924
+Quality metric (sum of introduced error):  0
+Testing Cases:  [8.0]
+Training cases:  [12.0, 29.0, 7.0, 27.0]
+MSE:  0.0004168490351867909
+R2:  0.9608307621769607
+Quality metric (sum of introduced error):  0
+Testing Cases:  [29.0]
+Training cases:  [12.0, 8.0, 7.0, 27.0]
+MSE:  0.0020742463778236526
+R2:  0.7642629804704877
+Quality metric (sum of introduced error):  0
+Testing Cases:  [7.0]
+Training cases:  [12.0, 8.0, 29.0, 27.0]
+MSE:  0.002617043328249225
+R2:  0.8765679749068138
+Quality metric (sum of introduced error):  0
+Testing Cases:  [27.0]
+Training cases:  [12.0, 8.0, 29.0, 7.0]
+MSE:  0.007561483430918662
+R2:  0.6994409570456666
+Quality metric (sum of introduced error):  0.069
+Replication:  3
+Selected sites:  [29.0, 22.0, 4.0, 23.0, 18.0]
+[29. 22.  4. 23. 18.]
+Testing Cases:  [29.0]
+Training cases:  [22.0, 4.0, 23.0, 18.0]
+MSE:  0.0024792140554303244
+R2:  0.7182386150212153
+Quality metric (sum of introduced error):  0
+Testing Cases:  [22.0]
+Training cases:  [29.0, 4.0, 23.0, 18.0]
+MSE:  0.00037826395522973054
+R2:  0.9601048167961613
+Quality metric (sum of introduced error):  0
+Testing Cases:  [4.0]
+Training cases:  [29.0, 22.0, 23.0, 18.0]
+MSE:  0.08513252571072188
+R2:  -0.17457616070596482
+Quality metric (sum of introduced error):  0.35
+Testing Cases:  [23.0]
+Training cases:  [29.0, 22.0, 4.0, 18.0]
+MSE:  0.011586862039358348
+R2:  0.7226765097241583
+Quality metric (sum of introduced error):  0.105
+Testing Cases:  [18.0]
+Training cases:  [29.0, 22.0, 4.0, 23.0]
+MSE:  0.06280737770252381
+R2:  -141.78618544552577
+Quality metric (sum of introduced error):  0
+Replication:  4
+Selected sites:  [3.0, 1.0, 4.0, 11.0, 12.0]
+[ 3.  1.  4. 11. 12.]
+Testing Cases:  [3.0]
+Training cases:  [1.0, 4.0, 11.0, 12.0]
+MSE:  0.002815693058961447
+R2:  0.8049951123098086
+Quality metric (sum of introduced error):  0.062
+Testing Cases:  [1.0]
+Training cases:  [3.0, 4.0, 11.0, 12.0]
+MSE:  0.006335383810108956
+R2:  0.6806630637015134
+Quality metric (sum of introduced error):  0.063
+Testing Cases:  [4.0]
+Training cases:  [3.0, 1.0, 11.0, 12.0]
+MSE:  0.03598077307070147
+R2:  0.5035721313352922
+Quality metric (sum of introduced error):  0.094
+Testing Cases:  [11.0]
+Training cases:  [3.0, 1.0, 4.0, 12.0]
+MSE:  0.022391442761860777
+R2:  -3.1194911188816947
+Quality metric (sum of introduced error):  0
+Testing Cases:  [12.0]
+Training cases:  [3.0, 1.0, 4.0, 11.0]
+MSE:  0.016194847232378563
+R2:  -2.0129499093392647
+Quality metric (sum of introduced error):  0
+Replication:  5
+Selected sites:  [21.0, 24.0, 1.0, 22.0, 11.0]
+[21. 24.  1. 22. 11.]
+Testing Cases:  [21.0]
+Training cases:  [24.0, 1.0, 22.0, 11.0]
+MSE:  0.000868871770267136
+R2:  0.9500622463640728
+Quality metric (sum of introduced error):  0
+Testing Cases:  [24.0]
+Training cases:  [21.0, 1.0, 22.0, 11.0]
+MSE:  0.02624553004191227
+R2:  0.5443275803602443
+Quality metric (sum of introduced error):  0.07
+Testing Cases:  [1.0]
+Training cases:  [21.0, 24.0, 22.0, 11.0]
+MSE:  0.005399760962846147
+R2:  0.727823416180716
+Quality metric (sum of introduced error):  0.063
+Testing Cases:  [22.0]
+Training cases:  [21.0, 24.0, 1.0, 11.0]
+MSE:  0.0002471690278931522
+R2:  0.9739312892127846
+Quality metric (sum of introduced error):  0
+Testing Cases:  [11.0]
+Training cases:  [21.0, 24.0, 1.0, 22.0]
+MSE:  0.008195555243349605
+R2:  -0.5077865860787147
+Quality metric (sum of introduced error):  0
+Replication:  6
+Selected sites:  [28.0, 25.0, 22.0, 18.0, 12.0]
+[28. 25. 22. 18. 12.]
+Testing Cases:  [28.0]
+Training cases:  [25.0, 22.0, 18.0, 12.0]
+MSE:  0.04444641939997621
+R2:  -0.2401057469493928
+Quality metric (sum of introduced error):  0.352
+Testing Cases:  [25.0]
+Training cases:  [28.0, 22.0, 18.0, 12.0]
+MSE:  9.047392947448159e-05
+R2:  0.9876691189366666
+Quality metric (sum of introduced error):  0
+Testing Cases:  [22.0]
+Training cases:  [28.0, 25.0, 18.0, 12.0]
+MSE:  0.000185138140898099
+R2:  0.9804736350185363
+Quality metric (sum of introduced error):  0
+Testing Cases:  [18.0]
+Training cases:  [28.0, 25.0, 22.0, 12.0]
+MSE:  0.02482342780030537
+R2:  -55.43353846224334
+Quality metric (sum of introduced error):  0
+Testing Cases:  [12.0]
+Training cases:  [28.0, 25.0, 22.0, 18.0]
+MSE:  0.0014487935650167952
+R2:  0.730461030120656
+Quality metric (sum of introduced error):  0
+Replication:  7
+Selected sites:  [19.0, 23.0, 13.0, 1.0, 30.0]
+[19. 23. 13.  1. 30.]
+Testing Cases:  [19.0]
+Training cases:  [23.0, 13.0, 1.0, 30.0]
+MSE:  0.0479118055365099
+R2:  -0.3000470725644582
+Quality metric (sum of introduced error):  0.332
+Testing Cases:  [23.0]
+Training cases:  [19.0, 13.0, 1.0, 30.0]
+MSE:  0.03989486527343744
+R2:  0.045144125809680635
+Quality metric (sum of introduced error):  0.105
+Testing Cases:  [13.0]
+Training cases:  [19.0, 23.0, 1.0, 30.0]
+MSE:  0.0493747889878099
+R2:  -34.15730677884552
+Quality metric (sum of introduced error):  0
+Testing Cases:  [1.0]
+Training cases:  [19.0, 23.0, 13.0, 30.0]
+MSE:  0.01442578507048044
+R2:  0.2728639422354988
+Quality metric (sum of introduced error):  0.151
+Testing Cases:  [30.0]
+Training cases:  [19.0, 23.0, 13.0, 1.0]
+MSE:  0.01639190998736051
+R2:  -4.233728054083793
+Quality metric (sum of introduced error):  0
+Replication:  8
+Selected sites:  [10.0, 28.0, 18.0, 15.0, 13.0]
+[10. 28. 18. 15. 13.]
+Testing Cases:  [10.0]
+Training cases:  [28.0, 18.0, 15.0, 13.0]
+MSE:  0.019552777943953673
+R2:  -0.9881683604101605
+Quality metric (sum of introduced error):  0
+Testing Cases:  [28.0]
+Training cases:  [10.0, 18.0, 15.0, 13.0]
+MSE:  0.03776134395043267
+R2:  -0.05358452441479011
+Quality metric (sum of introduced error):  0.267
+Testing Cases:  [18.0]
+Training cases:  [10.0, 28.0, 15.0, 13.0]
+MSE:  0.037059755984905976
+R2:  -83.25158610648512
+Quality metric (sum of introduced error):  0
+Testing Cases:  [15.0]
+Training cases:  [10.0, 28.0, 18.0, 13.0]
+MSE:  0.21046326142972646
+R2:  -0.4902652058692929
+Quality metric (sum of introduced error):  0.516
+Testing Cases:  [13.0]
+Training cases:  [10.0, 28.0, 18.0, 15.0]
+MSE:  0.026298138501271134
+R2:  -17.725583277531065
+Quality metric (sum of introduced error):  0
+Replication:  9
+Selected sites:  [8.0, 11.0, 30.0, 15.0, 7.0]
+[ 8. 11. 30. 15.  7.]
+Testing Cases:  [8.0]
+Training cases:  [11.0, 30.0, 15.0, 7.0]
+MSE:  0.02325540623808448
+R2:  -1.1851952642825392
+Quality metric (sum of introduced error):  0
+Testing Cases:  [11.0]
+Training cases:  [8.0, 30.0, 15.0, 7.0]
+MSE:  0.014310839060277454
+R2:  -1.6328528732848424
+Quality metric (sum of introduced error):  0
+Testing Cases:  [30.0]
+Training cases:  [8.0, 11.0, 15.0, 7.0]
+MSE:  0.002681088274647597
+R2:  0.14396266638127475
+Quality metric (sum of introduced error):  0
+Testing Cases:  [15.0]
+Training cases:  [8.0, 11.0, 30.0, 7.0]
+MSE:  0.13356222052047373
+R2:  0.05426187588200959
+Quality metric (sum of introduced error):  0.154
+Testing Cases:  [7.0]
+Training cases:  [8.0, 11.0, 30.0, 15.0]
+MSE:  0.002892514027466135
+R2:  0.8635754860583673
+Quality metric (sum of introduced error):  0
+Replication:  10
+Selected sites:  [4.0, 17.0, 7.0, 16.0, 24.0]
+[ 4. 17.  7. 16. 24.]
+Testing Cases:  [4.0]
+Training cases:  [17.0, 7.0, 16.0, 24.0]
+MSE:  0.014278495018305835
+R2:  0.8029991508034315
+Quality metric (sum of introduced error):  0.094
+Testing Cases:  [17.0]
+Training cases:  [4.0, 7.0, 16.0, 24.0]
+MSE:  0.002721373303937418
+R2:  0.8357580825204403
+Quality metric (sum of introduced error):  0
+Testing Cases:  [7.0]
+Training cases:  [4.0, 17.0, 16.0, 24.0]
+MSE:  0.005593316256093828
+R2:  0.736192998784561
+Quality metric (sum of introduced error):  0
+Testing Cases:  [16.0]
+Training cases:  [4.0, 17.0, 7.0, 24.0]
+MSE:  0.00497926306138347
+R2:  0.6089700059313818
+Quality metric (sum of introduced error):  0
+Testing Cases:  [24.0]
+Training cases:  [4.0, 17.0, 7.0, 16.0]
+MSE:  0.00021277741479124845
+R2:  0.9963057785730451
+Quality metric (sum of introduced error):  0
+Replication:  11
+Selected sites:  [13.0, 3.0, 29.0, 19.0, 22.0]
+[13.  3. 29. 19. 22.]
+Testing Cases:  [13.0]
+Training cases:  [3.0, 29.0, 19.0, 22.0]
+MSE:  0.02591199563856344
+R2:  -17.45063034379746
+Quality metric (sum of introduced error):  0
+Testing Cases:  [3.0]
+Training cases:  [13.0, 29.0, 19.0, 22.0]
+MSE:  0.0030980555439709696
+R2:  0.7854396907762148
+Quality metric (sum of introduced error):  0.062
+Testing Cases:  [29.0]
+Training cases:  [13.0, 3.0, 19.0, 22.0]
+MSE:  0.005001326486822315
+R2:  0.43160185197742473
+Quality metric (sum of introduced error):  0
+Testing Cases:  [19.0]
+Training cases:  [13.0, 3.0, 29.0, 22.0]
+MSE:  0.03499335236066767
+R2:  0.05048443100237898
+Quality metric (sum of introduced error):  0.115
+Testing Cases:  [22.0]
+Training cases:  [13.0, 3.0, 29.0, 19.0]
+MSE:  0.0004912330217037238
+R2:  0.9481900637750615
+Quality metric (sum of introduced error):  0
+Replication:  12
+Selected sites:  [7.0, 17.0, 4.0, 22.0, 14.0]
+[ 7. 17.  4. 22. 14.]
+Testing Cases:  [7.0]
+Training cases:  [17.0, 4.0, 22.0, 14.0]
+MSE:  0.00017382726775581924
+R2:  0.9918014916131059
+Quality metric (sum of introduced error):  0
+Testing Cases:  [17.0]
+Training cases:  [7.0, 4.0, 22.0, 14.0]
+MSE:  0.000549538214620253
+R2:  0.9668339474165726
+Quality metric (sum of introduced error):  0.065
+Testing Cases:  [4.0]
+Training cases:  [7.0, 17.0, 22.0, 14.0]
+MSE:  0.03504270929847664
+R2:  0.5165146269899047
+Quality metric (sum of introduced error):  0.094
+Testing Cases:  [22.0]
+Training cases:  [7.0, 17.0, 4.0, 14.0]
+MSE:  0.001660896939759204
+R2:  0.8248265879466474
+Quality metric (sum of introduced error):  0
+Testing Cases:  [14.0]
+Training cases:  [7.0, 17.0, 4.0, 22.0]
+MSE:  0.004713870054666583
+R2:  0.41194042111282125
+Quality metric (sum of introduced error):  0
+Replication:  13
+Selected sites:  [25.0, 24.0, 16.0, 23.0, 11.0]
+[25. 24. 16. 23. 11.]
+Testing Cases:  [25.0]
+Training cases:  [24.0, 16.0, 23.0, 11.0]
+MSE:  0.0033832796234400555
+R2:  0.5388857444021429
+Quality metric (sum of introduced error):  0
+Testing Cases:  [24.0]
+Training cases:  [25.0, 16.0, 23.0, 11.0]
+MSE:  0.02344854677547603
+R2:  0.5928885402903202
+Quality metric (sum of introduced error):  0.07
+Testing Cases:  [16.0]
+Training cases:  [25.0, 24.0, 23.0, 11.0]
+MSE:  0.002038260619393607
+R2:  0.8399319280611917
+Quality metric (sum of introduced error):  0
+Testing Cases:  [23.0]
+Training cases:  [25.0, 24.0, 16.0, 11.0]
+MSE:  0.010129202637537655
+R2:  0.7575645744627539
+Quality metric (sum of introduced error):  0.105
+Testing Cases:  [11.0]
+Training cases:  [25.0, 24.0, 16.0, 23.0]
+MSE:  0.009060495749138465
+R2:  -0.6669149982070872
+Quality metric (sum of introduced error):  0
+Replication:  14
+Selected sites:  [28.0, 4.0, 3.0, 27.0, 12.0]
+[28.  4.  3. 27. 12.]
+Testing Cases:  [28.0]
+Training cases:  [4.0, 3.0, 27.0, 12.0]
+MSE:  0.002508043357484886
+R2:  0.9300227324674679
+Quality metric (sum of introduced error):  0
+Testing Cases:  [4.0]
+Training cases:  [28.0, 3.0, 27.0, 12.0]
+MSE:  0.022363858720923366
+R2:  0.6914451310389762
+Quality metric (sum of introduced error):  0
+Testing Cases:  [3.0]
+Training cases:  [28.0, 4.0, 27.0, 12.0]
+MSE:  0.004006391257698769
+R2:  0.7225315895978097
+Quality metric (sum of introduced error):  0
+Testing Cases:  [27.0]
+Training cases:  [28.0, 4.0, 3.0, 12.0]
+MSE:  0.0004053025421936133
+R2:  0.9838897558525932
+Quality metric (sum of introduced error):  0
+Testing Cases:  [12.0]
+Training cases:  [28.0, 4.0, 3.0, 27.0]
+MSE:  0.026196527958457068
+R2:  -3.8736999741271614
+Quality metric (sum of introduced error):  0
+Replication:  15
+Selected sites:  [30.0, 14.0, 4.0, 12.0, 7.0]
+[30. 14.  4. 12.  7.]
+Testing Cases:  [30.0]
+Training cases:  [14.0, 4.0, 12.0, 7.0]
+MSE:  0.010638258864522061
+R2:  -2.396660542230086
+Quality metric (sum of introduced error):  0
+Testing Cases:  [14.0]
+Training cases:  [30.0, 4.0, 12.0, 7.0]
+MSE:  0.00016500417091730606
+R2:  0.9794155795261688
+Quality metric (sum of introduced error):  0
+Testing Cases:  [4.0]
+Training cases:  [30.0, 14.0, 12.0, 7.0]
+MSE:  0.0460570675142278
+R2:  0.3645491769143663
+Quality metric (sum of introduced error):  0.094
+Testing Cases:  [12.0]
+Training cases:  [30.0, 14.0, 4.0, 7.0]
+MSE:  0.0030004044514094354
+R2:  0.44179354148020233
+Quality metric (sum of introduced error):  0
+Testing Cases:  [7.0]
+Training cases:  [30.0, 14.0, 4.0, 12.0]
+MSE:  0.0016051416339595776
+R2:  0.9242939999111285
+Quality metric (sum of introduced error):  0
+Replication:  16
+Selected sites:  [17.0, 13.0, 19.0, 25.0, 16.0]
+[17. 13. 19. 25. 16.]
+Testing Cases:  [17.0]
+Training cases:  [13.0, 19.0, 25.0, 16.0]
+MSE:  0.0016225386472129308
+R2:  0.9020755960906307
+Quality metric (sum of introduced error):  0.065
+Testing Cases:  [13.0]
+Training cases:  [17.0, 19.0, 25.0, 16.0]
+MSE:  0.030699456783844583
+R2:  -20.859540915911648
+Quality metric (sum of introduced error):  0
+Testing Cases:  [19.0]
+Training cases:  [17.0, 13.0, 25.0, 16.0]
+MSE:  0.03457311281141526
+R2:  0.06188728233857166
+Quality metric (sum of introduced error):  0.115
+Testing Cases:  [25.0]
+Training cases:  [17.0, 13.0, 19.0, 16.0]
+MSE:  0.0013027484741994924
+R2:  0.8224456859108363
+Quality metric (sum of introduced error):  0
+Testing Cases:  [16.0]
+Training cases:  [17.0, 13.0, 19.0, 25.0]
+MSE:  0.0009926152736445012
+R2:  0.9220482348932605
+Quality metric (sum of introduced error):  0
+Replication:  17
+Selected sites:  [10.0, 16.0, 11.0, 27.0, 13.0]
+[10. 16. 11. 27. 13.]
+Testing Cases:  [10.0]
+Training cases:  [16.0, 11.0, 27.0, 13.0]
+MSE:  0.00017643638271983475
+R2:  0.9820595705247465
+Quality metric (sum of introduced error):  0
+Testing Cases:  [16.0]
+Training cases:  [10.0, 11.0, 27.0, 13.0]
+MSE:  0.00033438134117147803
+R2:  0.9737404647549169
+Quality metric (sum of introduced error):  0
+Testing Cases:  [11.0]
+Training cases:  [10.0, 16.0, 27.0, 13.0]
+MSE:  0.0002943772420620666
+R2:  0.9458416124779092
+Quality metric (sum of introduced error):  0
+Testing Cases:  [27.0]
+Training cases:  [10.0, 16.0, 11.0, 13.0]
+MSE:  0.009065664032380079
+R2:  0.639651752171248
+Quality metric (sum of introduced error):  0.069
+Testing Cases:  [13.0]
+Training cases:  [10.0, 16.0, 11.0, 27.0]
+MSE:  0.004238431544460496
+R2:  -2.0179741751711204
+Quality metric (sum of introduced error):  0
+Replication:  18
+Selected sites:  [28.0, 27.0, 25.0, 4.0, 24.0]
+[28. 27. 25.  4. 24.]
+Testing Cases:  [28.0]
+Training cases:  [27.0, 25.0, 4.0, 24.0]
+MSE:  0.0009993577458379717
+R2:  0.9721167801455628
+Quality metric (sum of introduced error):  0
+Testing Cases:  [27.0]
+Training cases:  [28.0, 25.0, 4.0, 24.0]
+MSE:  0.0006913519493838953
+R2:  0.9725196673179523
+Quality metric (sum of introduced error):  0
+Testing Cases:  [25.0]
+Training cases:  [28.0, 27.0, 4.0, 24.0]
+MSE:  0.03165840968834147
+R2:  -3.3147908661502967
+Quality metric (sum of introduced error):  0
+Testing Cases:  [4.0]
+Training cases:  [28.0, 27.0, 25.0, 24.0]
+MSE:  0.013760602126552744
+R2:  0.810144535477196
+Quality metric (sum of introduced error):  0
+Testing Cases:  [24.0]
+Training cases:  [28.0, 27.0, 25.0, 4.0]
+MSE:  0.0004343655816705746
+R2:  0.9924585856985177
+Quality metric (sum of introduced error):  0
+Replication:  19
+Selected sites:  [25.0, 10.0, 22.0, 29.0, 12.0]
+[25. 10. 22. 29. 12.]
+Testing Cases:  [25.0]
+Training cases:  [10.0, 22.0, 29.0, 12.0]
+MSE:  8.116067018418862e-05
+R2:  0.9889384425228935
+Quality metric (sum of introduced error):  0
+Testing Cases:  [10.0]
+Training cases:  [25.0, 22.0, 29.0, 12.0]
+MSE:  0.00034289412592213475
+R2:  0.9651337904985671
+Quality metric (sum of introduced error):  0
+Testing Cases:  [22.0]
+Training cases:  [25.0, 10.0, 29.0, 12.0]
+MSE:  0.000421367179676188
+R2:  0.9555587557396082
+Quality metric (sum of introduced error):  0
+Testing Cases:  [29.0]
+Training cases:  [25.0, 10.0, 22.0, 12.0]
+MSE:  0.00041586216600351456
+R2:  0.9527374816237522
+Quality metric (sum of introduced error):  0
+Testing Cases:  [12.0]
+Training cases:  [25.0, 10.0, 22.0, 29.0]
+MSE:  0.000756144474922764
+R2:  0.8593240557026656
+Quality metric (sum of introduced error):  0
+Replication:  20
+Selected sites:  [10.0, 19.0, 17.0, 13.0, 25.0]
+[10. 19. 17. 13. 25.]
+Testing Cases:  [10.0]
+Training cases:  [19.0, 17.0, 13.0, 25.0]
+MSE:  0.0013683102508748287
+R2:  0.8608672815795227
+Quality metric (sum of introduced error):  0
+Testing Cases:  [19.0]
+Training cases:  [10.0, 17.0, 13.0, 25.0]
+MSE:  0.03224889656423255
+R2:  0.1249529609186475
+Quality metric (sum of introduced error):  0.115
+Testing Cases:  [17.0]
+Training cases:  [10.0, 19.0, 13.0, 25.0]
+MSE:  0.004063184162901067
+R2:  0.7547763267090543
+Quality metric (sum of introduced error):  0.065
+Testing Cases:  [13.0]
+Training cases:  [10.0, 19.0, 17.0, 25.0]
+MSE:  0.03282952501549962
+R2:  -22.376255494654618
+Quality metric (sum of introduced error):  0
+Testing Cases:  [25.0]
+Training cases:  [10.0, 19.0, 17.0, 13.0]
+MSE:  0.00022309946428176076
+R2:  0.9695933074275533
+Quality metric (sum of introduced error):  0
+Replication:  21
+Selected sites:  [28.0, 22.0, 12.0, 27.0, 15.0]
+[28. 22. 12. 27. 15.]
+Testing Cases:  [28.0]
+Training cases:  [22.0, 12.0, 27.0, 15.0]
+MSE:  0.0012303143560596372
+R2:  0.9656728275505425
+Quality metric (sum of introduced error):  0
+Testing Cases:  [22.0]
+Training cases:  [28.0, 12.0, 27.0, 15.0]
+MSE:  0.020897050366051433
+R2:  -1.2039944362849528
+Quality metric (sum of introduced error):  0
+Testing Cases:  [12.0]
+Training cases:  [28.0, 22.0, 27.0, 15.0]
+MSE:  0.024172951627397344
+R2:  -3.4972262701321153
+Quality metric (sum of introduced error):  0
+Testing Cases:  [27.0]
+Training cases:  [28.0, 22.0, 12.0, 15.0]
+MSE:  0.0009963247056749309
+R2:  0.9603974004908936
+Quality metric (sum of introduced error):  0
+Testing Cases:  [15.0]
+Training cases:  [28.0, 22.0, 12.0, 27.0]
+MSE:  0.10346607430881047
+R2:  0.2673690910097791
+Quality metric (sum of introduced error):  0
+Replication:  22
+Selected sites:  [30.0, 3.0, 12.0, 15.0, 17.0]
+[30.  3. 12. 15. 17.]
+Testing Cases:  [30.0]
+Training cases:  [3.0, 12.0, 15.0, 17.0]
+MSE:  0.011034275879779636
+R2:  -2.5231037306227915
+Quality metric (sum of introduced error):  0
+Testing Cases:  [3.0]
+Training cases:  [30.0, 12.0, 15.0, 17.0]
+MSE:  0.0049985793362099205
+R2:  0.653816171842375
+Quality metric (sum of introduced error):  0
+Testing Cases:  [12.0]
+Training cases:  [30.0, 3.0, 15.0, 17.0]
+MSE:  0.012430374320896193
+R2:  -1.3125932987079283
+Quality metric (sum of introduced error):  0
+Testing Cases:  [15.0]
+Training cases:  [30.0, 3.0, 12.0, 17.0]
+MSE:  0.12525390104607734
+R2:  0.11309209331676806
+Quality metric (sum of introduced error):  0.154
+Testing Cases:  [17.0]
+Training cases:  [30.0, 3.0, 12.0, 15.0]
+MSE:  0.00631694686755614
+R2:  0.6187559183288813
+Quality metric (sum of introduced error):  0
+Replication:  23
+Selected sites:  [13.0, 4.0, 11.0, 23.0, 28.0]
+[13.  4. 11. 23. 28.]
+Testing Cases:  [13.0]
+Training cases:  [4.0, 11.0, 23.0, 28.0]
+MSE:  0.0351703666555993
+R2:  -24.043051228850032
+Quality metric (sum of introduced error):  0
+Testing Cases:  [4.0]
+Training cases:  [13.0, 11.0, 23.0, 28.0]
+MSE:  0.010907908281488318
+R2:  0.8495032430479185
+Quality metric (sum of introduced error):  0
+Testing Cases:  [11.0]
+Training cases:  [13.0, 4.0, 23.0, 28.0]
+MSE:  0.005840149380555585
+R2:  -0.07444811672072249
+Quality metric (sum of introduced error):  0
+Testing Cases:  [23.0]
+Training cases:  [13.0, 4.0, 11.0, 28.0]
+MSE:  0.0035626994745656965
+R2:  0.9147292640807881
+Quality metric (sum of introduced error):  0
+Testing Cases:  [28.0]
+Training cases:  [13.0, 4.0, 11.0, 23.0]
+MSE:  0.03141815311939407
+R2:  0.12339772769373136
+Quality metric (sum of introduced error):  0.21
+Replication:  24
+Selected sites:  [15.0, 11.0, 25.0, 20.0, 17.0]
+[15. 11. 25. 20. 17.]
+Testing Cases:  [15.0]
+Training cases:  [11.0, 25.0, 20.0, 17.0]
+MSE:  0.15741499697156408
+R2:  -0.11463678399316057
+Quality metric (sum of introduced error):  0.154
+Testing Cases:  [11.0]
+Training cases:  [15.0, 25.0, 20.0, 17.0]
+MSE:  0.006634502836227336
+R2:  -0.22059019611662944
+Quality metric (sum of introduced error):  0
+Testing Cases:  [25.0]
+Training cases:  [15.0, 11.0, 20.0, 17.0]
+MSE:  0.03800235921729941
+R2:  -4.179421015053401
+Quality metric (sum of introduced error):  0
+Testing Cases:  [20.0]
+Training cases:  [15.0, 11.0, 25.0, 17.0]
+MSE:  0.0014194752025549508
+R2:  0.8917183519273075
+Quality metric (sum of introduced error):  0
+Testing Cases:  [17.0]
+Training cases:  [15.0, 11.0, 25.0, 20.0]
+MSE:  0.0028156964554981317
+R2:  0.8300654363654154
+Quality metric (sum of introduced error):  0.065
+Replication:  25
+Selected sites:  [25.0, 19.0, 8.0, 13.0, 12.0]
+[25. 19.  8. 13. 12.]
+Testing Cases:  [25.0]
+Training cases:  [19.0, 8.0, 13.0, 12.0]
+MSE:  0.00011127650061803502
+R2:  0.9848338930094559
+Quality metric (sum of introduced error):  0
+Testing Cases:  [19.0]
+Training cases:  [25.0, 8.0, 13.0, 12.0]
+MSE:  0.04945989532224691
+R2:  -0.3420532038608608
+Quality metric (sum of introduced error):  0.332
+Testing Cases:  [8.0]
+Training cases:  [25.0, 19.0, 13.0, 12.0]
+MSE:  0.0008892813502755077
+R2:  0.916438639026893
+Quality metric (sum of introduced error):  0
+Testing Cases:  [13.0]
+Training cases:  [25.0, 19.0, 8.0, 12.0]
+MSE:  0.011242998180473418
+R2:  -7.005574185694135
+Quality metric (sum of introduced error):  0
+Testing Cases:  [12.0]
+Training cases:  [25.0, 19.0, 8.0, 13.0]
+MSE:  2.4661159963649992e-05
+R2:  0.9954119456262529
+Quality metric (sum of introduced error):  0
+Replication:  26
+Selected sites:  [29.0, 22.0, 13.0, 23.0, 18.0]
+[29. 22. 13. 23. 18.]
+Testing Cases:  [29.0]
+Training cases:  [22.0, 13.0, 23.0, 18.0]
+MSE:  0.0030414292188541505
+R2:  0.6543431547823554
+Quality metric (sum of introduced error):  0
+Testing Cases:  [22.0]
+Training cases:  [29.0, 13.0, 23.0, 18.0]
+MSE:  0.0012141884298895115
+R2:  0.8719405611221821
+Quality metric (sum of introduced error):  0
+Testing Cases:  [13.0]
+Training cases:  [29.0, 22.0, 23.0, 18.0]
+MSE:  0.0008001553801035802
+R2:  0.4302495515273872
+Quality metric (sum of introduced error):  0
+Testing Cases:  [23.0]
+Training cases:  [29.0, 22.0, 13.0, 18.0]
+MSE:  0.052793764870071626
+R2:  -0.26358207155983027
+Quality metric (sum of introduced error):  0.333
+Testing Cases:  [18.0]
+Training cases:  [29.0, 22.0, 13.0, 23.0]
+MSE:  0.008173659114402728
+R2:  -17.581982702817452
+Quality metric (sum of introduced error):  0
+Replication:  27
+Selected sites:  [23.0, 17.0, 16.0, 12.0, 8.0]
+[23. 17. 16. 12.  8.]
+Testing Cases:  [23.0]
+Training cases:  [17.0, 16.0, 12.0, 8.0]
+MSE:  0.025252782383799126
+R2:  0.3955922038198978
+Quality metric (sum of introduced error):  0.105
+Testing Cases:  [17.0]
+Training cases:  [23.0, 16.0, 12.0, 8.0]
+MSE:  0.0012633503432280108
+R2:  0.9237535392443168
+Quality metric (sum of introduced error):  0.065
+Testing Cases:  [16.0]
+Training cases:  [23.0, 17.0, 12.0, 8.0]
+MSE:  0.00010262236971235176
+R2:  0.9919408908255635
+Quality metric (sum of introduced error):  0
+Testing Cases:  [12.0]
+Training cases:  [23.0, 17.0, 16.0, 8.0]
+MSE:  0.004200629304010707
+R2:  0.21849922391468768
+Quality metric (sum of introduced error):  0
+Testing Cases:  [8.0]
+Training cases:  [23.0, 17.0, 16.0, 12.0]
+MSE:  0.005235348284678501
+R2:  0.5080602694519303
+Quality metric (sum of introduced error):  0
+Replication:  28
+Selected sites:  [21.0, 20.0, 4.0, 30.0, 3.0]
+[21. 20.  4. 30.  3.]
+Testing Cases:  [21.0]
+Training cases:  [20.0, 4.0, 30.0, 3.0]
+MSE:  0.006002384456993717
+R2:  0.6550174530940117
+Quality metric (sum of introduced error):  0
+Testing Cases:  [20.0]
+Training cases:  [21.0, 4.0, 30.0, 3.0]
+MSE:  0.004164547228420134
+R2:  0.682316368360483
+Quality metric (sum of introduced error):  0
+Testing Cases:  [4.0]
+Training cases:  [21.0, 20.0, 30.0, 3.0]
+MSE:  0.03635412994007866
+R2:  0.49842091475214534
+Quality metric (sum of introduced error):  0.094
+Testing Cases:  [30.0]
+Training cases:  [21.0, 20.0, 4.0, 3.0]
+MSE:  0.00970210349018499
+R2:  -2.097758056221609
+Quality metric (sum of introduced error):  0
+Testing Cases:  [3.0]
+Training cases:  [21.0, 20.0, 4.0, 30.0]
+MSE:  0.0028637181172324563
+R2:  0.8016690675675925
+Quality metric (sum of introduced error):  0.062
+Replication:  29
+Selected sites:  [7.0, 8.0, 25.0, 10.0, 27.0]
+[ 7.  8. 25. 10. 27.]
+Testing Cases:  [7.0]
+Training cases:  [8.0, 25.0, 10.0, 27.0]
+MSE:  0.0037143701718745856
+R2:  0.8248128996141155
+Quality metric (sum of introduced error):  0
+Testing Cases:  [8.0]
+Training cases:  [7.0, 25.0, 10.0, 27.0]
+MSE:  0.0011027950248691575
+R2:  0.8963758172552602
+Quality metric (sum of introduced error):  0
+Testing Cases:  [25.0]
+Training cases:  [7.0, 8.0, 10.0, 27.0]
+MSE:  0.002867723848336232
+R2:  0.6091519192134511
+Quality metric (sum of introduced error):  0
+Testing Cases:  [10.0]
+Training cases:  [7.0, 8.0, 25.0, 27.0]
+MSE:  0.0011686771743910163
+R2:  0.8811664005842058
+Quality metric (sum of introduced error):  0
+Testing Cases:  [27.0]
+Training cases:  [7.0, 8.0, 25.0, 10.0]
+MSE:  0.004342565983423312
+R2:  0.8273887011896576
+Quality metric (sum of introduced error):  0.069
+Replication:  30
+Selected sites:  [18.0, 24.0, 4.0, 17.0, 19.0]
+[18. 24.  4. 17. 19.]
+Testing Cases:  [18.0]
+Training cases:  [24.0, 4.0, 17.0, 19.0]
+MSE:  0.08087126942270911
+R2:  -182.85260610143277
+Quality metric (sum of introduced error):  0
+Testing Cases:  [24.0]
+Training cases:  [18.0, 4.0, 17.0, 19.0]
+MSE:  0.004730622038751435
+R2:  0.9178673858993643
+Quality metric (sum of introduced error):  0
+Testing Cases:  [4.0]
+Training cases:  [18.0, 24.0, 17.0, 19.0]
+MSE:  0.04469699114885704
+R2:  0.38331419371807784
+Quality metric (sum of introduced error):  0.094
+Testing Cases:  [17.0]
+Training cases:  [18.0, 24.0, 4.0, 19.0]
+MSE:  0.017444456773096306
+R2:  -0.05281808477258343
+Quality metric (sum of introduced error):  0
+Testing Cases:  [19.0]
+Training cases:  [18.0, 24.0, 4.0, 17.0]
+MSE:  0.01898231591339978
+R2:  0.4849306145454281
+Quality metric (sum of introduced error):  0.115
+Replication:  31
+Selected sites:  [21.0, 13.0, 22.0, 1.0, 27.0]
+[21. 13. 22.  1. 27.]
+Testing Cases:  [21.0]
+Training cases:  [13.0, 22.0, 1.0, 27.0]
+MSE:  0.0023796157813167017
+R2:  0.8632333668764233
+Quality metric (sum of introduced error):  0
+Testing Cases:  [13.0]
+Training cases:  [21.0, 22.0, 1.0, 27.0]
+MSE:  0.01979474380668154
+R2:  -13.094842628937064
+Quality metric (sum of introduced error):  0
+Testing Cases:  [22.0]
+Training cases:  [21.0, 13.0, 1.0, 27.0]
+MSE:  0.004264845208720009
+R2:  0.5501903404077625
+Quality metric (sum of introduced error):  0
+Testing Cases:  [1.0]
+Training cases:  [21.0, 13.0, 22.0, 27.0]
+MSE:  0.0011347531226165693
+R2:  0.9428024257893723
+Quality metric (sum of introduced error):  0.063
+Testing Cases:  [27.0]
+Training cases:  [21.0, 13.0, 22.0, 1.0]
+MSE:  0.013601130469551217
+R2:  0.4593729134801947
+Quality metric (sum of introduced error):  0.069
+Replication:  32
+Selected sites:  [29.0, 7.0, 27.0, 22.0, 30.0]
+[29.  7. 27. 22. 30.]
+Testing Cases:  [29.0]
+Training cases:  [7.0, 27.0, 22.0, 30.0]
+MSE:  0.0012735411033173378
+R2:  0.8552627175083442
+Quality metric (sum of introduced error):  0
+Testing Cases:  [7.0]
+Training cases:  [29.0, 27.0, 22.0, 30.0]
+MSE:  0.005590128967736669
+R2:  0.7363433262370084
+Quality metric (sum of introduced error):  0
+Testing Cases:  [27.0]
+Training cases:  [29.0, 7.0, 22.0, 30.0]
+MSE:  0.0080613782294844
+R2:  0.6795707948470153
+Quality metric (sum of introduced error):  0.069
+Testing Cases:  [22.0]
+Training cases:  [29.0, 7.0, 27.0, 30.0]
+MSE:  0.0017389188978740395
+R2:  0.8165976772352814
+Quality metric (sum of introduced error):  0
+Testing Cases:  [30.0]
+Training cases:  [29.0, 7.0, 27.0, 22.0]
+MSE:  0.006519746933641815
+R2:  -1.081672145493675
+Quality metric (sum of introduced error):  0
+Replication:  33
+Selected sites:  [13.0, 30.0, 25.0, 15.0, 7.0]
+[13. 30. 25. 15.  7.]
+Testing Cases:  [13.0]
+Training cases:  [30.0, 25.0, 15.0, 7.0]
+MSE:  0.062275957618201344
+R2:  -43.343580839809555
+Quality metric (sum of introduced error):  0
+Testing Cases:  [30.0]
+Training cases:  [13.0, 25.0, 15.0, 7.0]
+MSE:  0.001123580564870534
+R2:  0.6412550381303593
+Quality metric (sum of introduced error):  0
+Testing Cases:  [25.0]
+Training cases:  [13.0, 30.0, 15.0, 7.0]
+MSE:  0.018855808706039943
+R2:  -1.5698976031843954
+Quality metric (sum of introduced error):  0
+Testing Cases:  [15.0]
+Training cases:  [13.0, 30.0, 25.0, 7.0]
+MSE:  0.1308040130284317
+R2:  0.07379241355416655
+Quality metric (sum of introduced error):  0.154
+Testing Cases:  [7.0]
+Training cases:  [13.0, 30.0, 25.0, 15.0]
+MSE:  0.0014294813757705603
+R2:  0.9325789607150321
+Quality metric (sum of introduced error):  0
+Replication:  34
+Selected sites:  [14.0, 18.0, 10.0, 19.0, 1.0]
+[14. 18. 10. 19.  1.]
+Testing Cases:  [14.0]
+Training cases:  [18.0, 10.0, 19.0, 1.0]
+MSE:  0.0003587601198072815
+R2:  0.9552443485864597
+Quality metric (sum of introduced error):  0
+Testing Cases:  [18.0]
+Training cases:  [14.0, 10.0, 19.0, 1.0]
+MSE:  0.03187234346902928
+R2:  -71.4585313322106
+Quality metric (sum of introduced error):  0
+Testing Cases:  [10.0]
+Training cases:  [14.0, 18.0, 19.0, 1.0]
+MSE:  0.0015772902187043915
+R2:  0.8396177506336271
+Quality metric (sum of introduced error):  0
+Testing Cases:  [19.0]
+Training cases:  [14.0, 18.0, 10.0, 1.0]
+MSE:  0.02520394359002831
+R2:  0.3161119119936452
+Quality metric (sum of introduced error):  0.115
+Testing Cases:  [1.0]
+Training cases:  [14.0, 18.0, 10.0, 19.0]
+MSE:  0.0064817268490697895
+R2:  0.673286598579417
+Quality metric (sum of introduced error):  0.063
+Replication:  35
+Selected sites:  [29.0, 13.0, 21.0, 30.0, 10.0]
+[29. 13. 21. 30. 10.]
+Testing Cases:  [29.0]
+Training cases:  [13.0, 21.0, 30.0, 10.0]
+MSE:  0.0046493902896278015
+R2:  0.4715992173233067
+Quality metric (sum of introduced error):  0.098
+Testing Cases:  [13.0]
+Training cases:  [29.0, 21.0, 30.0, 10.0]
+MSE:  0.008499315415381195
+R2:  -5.051935524068797
+Quality metric (sum of introduced error):  0
+Testing Cases:  [21.0]
+Training cases:  [29.0, 13.0, 30.0, 10.0]
+MSE:  0.014163703401325743
+R2:  0.18595176499946764
+Quality metric (sum of introduced error):  0.15
+Testing Cases:  [30.0]
+Training cases:  [29.0, 13.0, 21.0, 10.0]
+MSE:  0.004534191681223892
+R2:  -0.4477096459725045
+Quality metric (sum of introduced error):  0
+Testing Cases:  [10.0]
+Training cases:  [29.0, 13.0, 21.0, 30.0]
+MSE:  0.0018092452209840504
+R2:  0.8160320689523246
+Quality metric (sum of introduced error):  0
+Replication:  36
+Selected sites:  [21.0, 7.0, 25.0, 14.0, 24.0]
+[21.  7. 25. 14. 24.]
+Testing Cases:  [21.0]
+Training cases:  [7.0, 25.0, 14.0, 24.0]
+MSE:  0.0002870316220083457
+R2:  0.9835030727017792
+Quality metric (sum of introduced error):  0
+Testing Cases:  [7.0]
+Training cases:  [21.0, 25.0, 14.0, 24.0]
+MSE:  0.0010201971511021265
+R2:  0.9518827223853885
+Quality metric (sum of introduced error):  0
+Testing Cases:  [25.0]
+Training cases:  [21.0, 7.0, 14.0, 24.0]
+MSE:  0.0014784543015396775
+R2:  0.7984983712352036
+Quality metric (sum of introduced error):  0
+Testing Cases:  [14.0]
+Training cases:  [21.0, 7.0, 25.0, 24.0]
+MSE:  0.001234614108071389
+R2:  0.8459807665334586
+Quality metric (sum of introduced error):  0
+Testing Cases:  [24.0]
+Training cases:  [21.0, 7.0, 25.0, 14.0]
+MSE:  0.022178834274267936
+R2:  0.6149331690994317
+Quality metric (sum of introduced error):  0.07
+Replication:  37
+Selected sites:  [11.0, 8.0, 16.0, 30.0, 10.0]
+[11.  8. 16. 30. 10.]
+Testing Cases:  [11.0]
+Training cases:  [8.0, 16.0, 30.0, 10.0]
+MSE:  0.001443900429840152
+R2:  0.7343567781435061
+Quality metric (sum of introduced error):  0
+Testing Cases:  [8.0]
+Training cases:  [11.0, 16.0, 30.0, 10.0]
+MSE:  0.0022624596366922715
+R2:  0.7874078812850887
+Quality metric (sum of introduced error):  0.066
+Testing Cases:  [16.0]
+Training cases:  [11.0, 8.0, 30.0, 10.0]
+MSE:  0.0033004110845595955
+R2:  0.7408131060943057
+Quality metric (sum of introduced error):  0
+Testing Cases:  [30.0]
+Training cases:  [11.0, 8.0, 16.0, 10.0]
+MSE:  0.0034036297502246285
+R2:  -0.08673562282861713
+Quality metric (sum of introduced error):  0
+Testing Cases:  [10.0]
+Training cases:  [11.0, 8.0, 16.0, 30.0]
+MSE:  0.0021616878534013667
+R2:  0.7801949468492497
+Quality metric (sum of introduced error):  0.078
+Replication:  38
+Selected sites:  [22.0, 30.0, 21.0, 1.0, 24.0]
+[22. 30. 21.  1. 24.]
+Testing Cases:  [22.0]
+Training cases:  [30.0, 21.0, 1.0, 24.0]
+MSE:  6.314581767311171e-05
+R2:  0.9933400633874961
+Quality metric (sum of introduced error):  0
+Testing Cases:  [30.0]
+Training cases:  [22.0, 21.0, 1.0, 24.0]
+MSE:  0.013984542267118948
+R2:  -3.465086206755492
+Quality metric (sum of introduced error):  0
+Testing Cases:  [21.0]
+Training cases:  [22.0, 30.0, 1.0, 24.0]
+MSE:  0.0005842596901071236
+R2:  0.9664201123083993
+Quality metric (sum of introduced error):  0
+Testing Cases:  [1.0]
+Training cases:  [22.0, 30.0, 21.0, 24.0]
+MSE:  0.005338006566749316
+R2:  0.7309361651859236
+Quality metric (sum of introduced error):  0.063
+Testing Cases:  [24.0]
+Training cases:  [22.0, 30.0, 21.0, 1.0]
+MSE:  0.02740682927491109
+R2:  0.5241652124986954
+Quality metric (sum of introduced error):  0.07
+Replication:  39
+Selected sites:  [15.0, 20.0, 1.0, 7.0, 16.0]
+[15. 20.  1.  7. 16.]
+Testing Cases:  [15.0]
+Training cases:  [20.0, 1.0, 7.0, 16.0]
+MSE:  0.11819276694455036
+R2:  0.16309114015277082
+Quality metric (sum of introduced error):  0.154
+Testing Cases:  [20.0]
+Training cases:  [15.0, 1.0, 7.0, 16.0]
+MSE:  0.0014663146604052542
+R2:  0.8881453034642324
+Quality metric (sum of introduced error):  0
+Testing Cases:  [1.0]
+Training cases:  [15.0, 20.0, 7.0, 16.0]
+MSE:  0.000621175311362573
+R2:  0.9686894706334499
+Quality metric (sum of introduced error):  0.063
+Testing Cases:  [7.0]
+Training cases:  [15.0, 20.0, 1.0, 16.0]
+MSE:  0.013700425146404023
+R2:  0.3538237589709413
+Quality metric (sum of introduced error):  0
+Testing Cases:  [16.0]
+Training cases:  [15.0, 20.0, 1.0, 7.0]
+MSE:  0.011729540612889866
+R2:  0.0788592328336295
+Quality metric (sum of introduced error):  0
+Replication:  40
+Selected sites:  [14.0, 12.0, 3.0, 23.0, 4.0]
+[14. 12.  3. 23.  4.]
+Testing Cases:  [14.0]
+Training cases:  [12.0, 3.0, 23.0, 4.0]
+MSE:  0.005106885165245625
+R2:  0.3629114284288564
+Quality metric (sum of introduced error):  0
+Testing Cases:  [12.0]
+Training cases:  [14.0, 3.0, 23.0, 4.0]
+MSE:  0.008517173995093774
+R2:  -0.5845668840295406
+Quality metric (sum of introduced error):  0
+Testing Cases:  [3.0]
+Training cases:  [14.0, 12.0, 23.0, 4.0]
+MSE:  0.020234080753236558
+R2:  -0.401340473614878
+Quality metric (sum of introduced error):  0
+Testing Cases:  [23.0]
+Training cases:  [14.0, 12.0, 3.0, 4.0]
+MSE:  0.006325451167897799
+R2:  0.8486047223577748
+Quality metric (sum of introduced error):  0.105
+Testing Cases:  [4.0]
+Training cases:  [14.0, 12.0, 3.0, 23.0]
+MSE:  0.03153746733815054
+R2:  0.5648765616292613
+Quality metric (sum of introduced error):  0
+Replication:  41
+Selected sites:  [4.0, 29.0, 20.0, 30.0, 22.0]
+[ 4. 29. 20. 30. 22.]
+Testing Cases:  [4.0]
+Training cases:  [29.0, 20.0, 30.0, 22.0]
+MSE:  0.045894180565436676
+R2:  0.3667965333194879
+Quality metric (sum of introduced error):  0.094
+Testing Cases:  [29.0]
+Training cases:  [4.0, 20.0, 30.0, 22.0]
+MSE:  0.001402919395505941
+R2:  0.8405589420463567
+Quality metric (sum of introduced error):  0
+Testing Cases:  [20.0]
+Training cases:  [4.0, 29.0, 30.0, 22.0]
+MSE:  0.00018998904908438616
+R2:  0.9855070893006146
+Quality metric (sum of introduced error):  0
+Testing Cases:  [30.0]
+Training cases:  [4.0, 29.0, 20.0, 22.0]
+MSE:  0.0051873095122111045
+R2:  -0.6562418498032889
+Quality metric (sum of introduced error):  0
+Testing Cases:  [22.0]
+Training cases:  [4.0, 29.0, 20.0, 30.0]
+MSE:  0.0012756793002150638
+R2:  0.865455170423215
+Quality metric (sum of introduced error):  0
+Replication:  42
+Selected sites:  [30.0, 8.0, 27.0, 20.0, 22.0]
+[30.  8. 27. 20. 22.]
+Testing Cases:  [30.0]
+Training cases:  [8.0, 27.0, 20.0, 22.0]
+MSE:  0.00709113714306068
+R2:  -1.2641097608277176
+Quality metric (sum of introduced error):  0
+Testing Cases:  [8.0]
+Training cases:  [30.0, 27.0, 20.0, 22.0]
+MSE:  0.00020201068884091988
+R2:  0.9810180567877281
+Quality metric (sum of introduced error):  0
+Testing Cases:  [27.0]
+Training cases:  [30.0, 8.0, 20.0, 22.0]
+MSE:  0.006515634034431049
+R2:  0.741012098020116
+Quality metric (sum of introduced error):  0.069
+Testing Cases:  [20.0]
+Training cases:  [30.0, 8.0, 27.0, 22.0]
+MSE:  0.00031329959332137707
+R2:  0.9761006065873632
+Quality metric (sum of introduced error):  0
+Testing Cases:  [22.0]
+Training cases:  [30.0, 8.0, 27.0, 20.0]
+MSE:  0.00026745937354890167
+R2:  0.9717912834152095
+Quality metric (sum of introduced error):  0
+Replication:  43
+Selected sites:  [10.0, 13.0, 21.0, 24.0, 18.0]
+[10. 13. 21. 24. 18.]
+Testing Cases:  [10.0]
+Training cases:  [13.0, 21.0, 24.0, 18.0]
+MSE:  0.006191316819012467
+R2:  0.37045363865330905
+Quality metric (sum of introduced error):  0.1
+Testing Cases:  [13.0]
+Training cases:  [10.0, 21.0, 24.0, 18.0]
+MSE:  0.0011959609870316446
+R2:  0.14841626306527989
+Quality metric (sum of introduced error):  0
+Testing Cases:  [21.0]
+Training cases:  [10.0, 13.0, 24.0, 18.0]
+MSE:  0.0037404925812736583
+R2:  0.7850179929965636
+Quality metric (sum of introduced error):  0
+Testing Cases:  [24.0]
+Training cases:  [10.0, 13.0, 21.0, 18.0]
+MSE:  0.07783395404114497
+R2:  -0.3513457762681915
+Quality metric (sum of introduced error):  0.652
+Testing Cases:  [18.0]
+Training cases:  [10.0, 13.0, 21.0, 24.0]
+MSE:  0.02148749390392169
+R2:  -47.84963202661588
+Quality metric (sum of introduced error):  0
+Replication:  44
+Selected sites:  [11.0, 22.0, 30.0, 29.0, 28.0]
+[11. 22. 30. 29. 28.]
+Testing Cases:  [11.0]
+Training cases:  [22.0, 30.0, 29.0, 28.0]
+MSE:  0.010546713290999285
+R2:  -0.9403435588199918
+Quality metric (sum of introduced error):  0
+Testing Cases:  [22.0]
+Training cases:  [11.0, 30.0, 29.0, 28.0]
+MSE:  0.0014378542611784865
+R2:  0.8483507128367613
+Quality metric (sum of introduced error):  0.067
+Testing Cases:  [30.0]
+Training cases:  [11.0, 22.0, 29.0, 28.0]
+MSE:  0.008433893691965733
+R2:  -1.6928348224726375
+Quality metric (sum of introduced error):  0
+Testing Cases:  [29.0]
+Training cases:  [11.0, 22.0, 30.0, 28.0]
+MSE:  0.0014693198666205136
+R2:  0.8330125631189275
+Quality metric (sum of introduced error):  0
+Testing Cases:  [28.0]
+Training cases:  [11.0, 22.0, 30.0, 29.0]
+MSE:  0.02926423089908829
+R2:  0.18349461198593653
+Quality metric (sum of introduced error):  0.21
+Replication:  45
+Selected sites:  [11.0, 28.0, 14.0, 17.0, 27.0]
+[11. 28. 14. 17. 27.]
+Testing Cases:  [11.0]
+Training cases:  [28.0, 14.0, 17.0, 27.0]
+MSE:  0.017767562128734267
+R2:  -2.2688074266553886
+Quality metric (sum of introduced error):  0
+Testing Cases:  [28.0]
+Training cases:  [11.0, 14.0, 17.0, 27.0]
+MSE:  0.019919554150471735
+R2:  0.44422174132022785
+Quality metric (sum of introduced error):  0.099
+Testing Cases:  [14.0]
+Training cases:  [11.0, 28.0, 17.0, 27.0]
+MSE:  0.006056086959625439
+R2:  0.2444976408172611
+Quality metric (sum of introduced error):  0
+Testing Cases:  [17.0]
+Training cases:  [11.0, 28.0, 14.0, 27.0]
+MSE:  0.004135970481427283
+R2:  0.7503834841307402
+Quality metric (sum of introduced error):  0.065
+Testing Cases:  [27.0]
+Training cases:  [11.0, 28.0, 14.0, 17.0]
+MSE:  0.0008272106981008037
+R2:  0.9671194603526947
+Quality metric (sum of introduced error):  0
+Replication:  46
+Selected sites:  [25.0, 16.0, 19.0, 21.0, 7.0]
+[25. 16. 19. 21.  7.]
+Testing Cases:  [25.0]
+Training cases:  [16.0, 19.0, 21.0, 7.0]
+MSE:  0.004122114723346599
+R2:  0.43818836345183
+Quality metric (sum of introduced error):  0
+Testing Cases:  [16.0]
+Training cases:  [25.0, 19.0, 21.0, 7.0]
+MSE:  0.0009593008514788426
+R2:  0.9246644731078804
+Quality metric (sum of introduced error):  0
+Testing Cases:  [19.0]
+Training cases:  [25.0, 16.0, 21.0, 7.0]
+MSE:  0.01471685961741175
+R2:  0.6006702304637894
+Quality metric (sum of introduced error):  0.115
+Testing Cases:  [21.0]
+Training cases:  [25.0, 16.0, 19.0, 7.0]
+MSE:  0.0006385985266346061
+R2:  0.9632970284147447
+Quality metric (sum of introduced error):  0
+Testing Cases:  [7.0]
+Training cases:  [25.0, 16.0, 19.0, 21.0]
+MSE:  0.0015302706170246812
+R2:  0.9278252678658103
+Quality metric (sum of introduced error):  0
+Replication:  47
+Selected sites:  [12.0, 4.0, 15.0, 1.0, 23.0]
+[12.  4. 15.  1. 23.]
+Testing Cases:  [12.0]
+Training cases:  [4.0, 15.0, 1.0, 23.0]
+MSE:  0.030410607175454043
+R2:  -4.657703022295138
+Quality metric (sum of introduced error):  0
+Testing Cases:  [4.0]
+Training cases:  [12.0, 15.0, 1.0, 23.0]
+MSE:  0.007475775295165686
+R2:  0.8968564908512949
+Quality metric (sum of introduced error):  0
+Testing Cases:  [15.0]
+Training cases:  [12.0, 4.0, 1.0, 23.0]
+MSE:  0.06113013875624283
+R2:  0.5671447919246042
+Quality metric (sum of introduced error):  0
+Testing Cases:  [1.0]
+Training cases:  [12.0, 4.0, 15.0, 23.0]
+MSE:  0.002442413589795938
+R2:  0.8768894046017064
+Quality metric (sum of introduced error):  0
+Testing Cases:  [23.0]
+Training cases:  [12.0, 4.0, 15.0, 1.0]
+MSE:  0.00475753311252968
+R2:  0.8861317513414803
+Quality metric (sum of introduced error):  0
+Replication:  48
+Selected sites:  [22.0, 12.0, 23.0, 1.0, 4.0]
+[22. 12. 23.  1.  4.]
+Testing Cases:  [22.0]
+Training cases:  [12.0, 23.0, 1.0, 4.0]
+MSE:  0.003646069629015176
+R2:  0.6154520836245942
+Quality metric (sum of introduced error):  0
+Testing Cases:  [12.0]
+Training cases:  [22.0, 23.0, 1.0, 4.0]
+MSE:  0.011835632197231388
+R2:  -1.2019452510997057
+Quality metric (sum of introduced error):  0
+Testing Cases:  [23.0]
+Training cases:  [22.0, 12.0, 1.0, 4.0]
+MSE:  0.007079480600593284
+R2:  0.8305575519215067
+Quality metric (sum of introduced error):  0
+Testing Cases:  [1.0]
+Training cases:  [22.0, 12.0, 23.0, 4.0]
+MSE:  0.0007020527501652279
+R2:  0.9646128188792661
+Quality metric (sum of introduced error):  0
+Testing Cases:  [4.0]
+Training cases:  [22.0, 12.0, 23.0, 1.0]
+MSE:  0.026669830125938092
+R2:  0.6320355068232238
+Quality metric (sum of introduced error):  0
+Replication:  49
+Selected sites:  [28.0, 25.0, 3.0, 12.0, 4.0]
+[28. 25.  3. 12.  4.]
+Testing Cases:  [28.0]
+Training cases:  [25.0, 3.0, 12.0, 4.0]
+MSE:  0.001191385675502206
+R2:  0.9667589820964462
+Quality metric (sum of introduced error):  0
+Testing Cases:  [25.0]
+Training cases:  [28.0, 3.0, 12.0, 4.0]
+MSE:  0.0022479294201087664
+R2:  0.6936249980614877
+Quality metric (sum of introduced error):  0
+Testing Cases:  [3.0]
+Training cases:  [28.0, 25.0, 12.0, 4.0]
+MSE:  0.0024523304186199976
+R2:  0.8301603165372649
+Quality metric (sum of introduced error):  0
+Testing Cases:  [12.0]
+Training cases:  [28.0, 25.0, 3.0, 4.0]
+MSE:  0.009375104672307335
+R2:  -0.7441795138394682
+Quality metric (sum of introduced error):  0
+Testing Cases:  [4.0]
+Training cases:  [28.0, 25.0, 3.0, 12.0]
+MSE:  0.023277765614876007
+R2:  0.6788359286010129
+Quality metric (sum of introduced error):  0
+Replication:  50
+Selected sites:  [3.0, 15.0, 4.0, 21.0, 12.0]
+[ 3. 15.  4. 21. 12.]
+Testing Cases:  [3.0]
+Training cases:  [15.0, 4.0, 21.0, 12.0]
+MSE:  0.005415654857146579
+R2:  0.6249310045263821
+Quality metric (sum of introduced error):  0
+Testing Cases:  [15.0]
+Training cases:  [3.0, 4.0, 21.0, 12.0]
+MSE:  0.04335978567328403
+R2:  0.6929745387205224
+Quality metric (sum of introduced error):  0
+Testing Cases:  [4.0]
+Training cases:  [3.0, 15.0, 21.0, 12.0]
+MSE:  0.00562009387682272
+R2:  0.9224593863093369
+Quality metric (sum of introduced error):  0
+Testing Cases:  [21.0]
+Training cases:  [3.0, 15.0, 4.0, 12.0]
+MSE:  0.017015244926576814
+R2:  0.02206155352807504
+Quality metric (sum of introduced error):  0
+Testing Cases:  [12.0]
+Training cases:  [3.0, 15.0, 4.0, 21.0]
+MSE:  0.008392844363167645
+R2:  -0.5614361346087573
+Quality metric (sum of introduced error):  0
+Replication:  51
+Selected sites:  [13.0, 27.0, 20.0, 11.0, 22.0]
+[13. 27. 20. 11. 22.]
+Testing Cases:  [13.0]
+Training cases:  [27.0, 20.0, 11.0, 22.0]
+MSE:  0.006611191418938917
+R2:  -3.707497280579597
+Quality metric (sum of introduced error):  0
+Testing Cases:  [27.0]
+Training cases:  [13.0, 20.0, 11.0, 22.0]
+MSE:  0.009778543499257084
+R2:  0.6113157289208053
+Quality metric (sum of introduced error):  0.069
+Testing Cases:  [20.0]
+Training cases:  [13.0, 27.0, 11.0, 22.0]
+MSE:  0.00252198166751085
+R2:  0.8076159901380029
+Quality metric (sum of introduced error):  0
+Testing Cases:  [11.0]
+Training cases:  [13.0, 27.0, 20.0, 22.0]
+MSE:  0.0007572642694650798
+R2:  0.860681445769929
+Quality metric (sum of introduced error):  0
+Testing Cases:  [22.0]
+Training cases:  [13.0, 27.0, 20.0, 11.0]
+MSE:  0.0005633427135440099
+R2:  0.9405847148461809
+Quality metric (sum of introduced error):  0
+Replication:  52
+Selected sites:  [8.0, 29.0, 23.0, 20.0, 12.0]
+[ 8. 29. 23. 20. 12.]
+Testing Cases:  [8.0]
+Training cases:  [29.0, 23.0, 20.0, 12.0]
+MSE:  0.005160561512066265
+R2:  0.5150876118113857
+Quality metric (sum of introduced error):  0
+Testing Cases:  [29.0]
+Training cases:  [8.0, 23.0, 20.0, 12.0]
+MSE:  0.0006421045647955347
+R2:  0.9270251509418025
+Quality metric (sum of introduced error):  0
+Testing Cases:  [23.0]
+Training cases:  [8.0, 29.0, 20.0, 12.0]
+MSE:  0.025477532924971753
+R2:  0.39021295581403925
+Quality metric (sum of introduced error):  0.105
+Testing Cases:  [20.0]
+Training cases:  [8.0, 29.0, 23.0, 12.0]
+MSE:  0.0008924154182425875
+R2:  0.9319239870630656
+Quality metric (sum of introduced error):  0
+Testing Cases:  [12.0]
+Training cases:  [8.0, 29.0, 23.0, 20.0]
+MSE:  0.0054048582564896735
+R2:  -0.005540031357887498
+Quality metric (sum of introduced error):  0
+Replication:  53
+Selected sites:  [20.0, 18.0, 11.0, 7.0, 27.0]
+[20. 18. 11.  7. 27.]
+Testing Cases:  [20.0]
+Training cases:  [18.0, 11.0, 7.0, 27.0]
+MSE:  0.0030274271573647294
+R2:  0.7690591555037828
+Quality metric (sum of introduced error):  0.064
+Testing Cases:  [18.0]
+Training cases:  [20.0, 11.0, 7.0, 27.0]
+MSE:  0.01849223718018493
+R2:  -41.04022049477208
+Quality metric (sum of introduced error):  0
+Testing Cases:  [11.0]
+Training cases:  [20.0, 18.0, 7.0, 27.0]
+MSE:  0.0059514735172333365
+R2:  -0.09492910123067544
+Quality metric (sum of introduced error):  0
+Testing Cases:  [7.0]
+Training cases:  [20.0, 18.0, 11.0, 27.0]
+MSE:  0.01479170273138073
+R2:  0.3023539950589359
+Quality metric (sum of introduced error):  0.133
+Testing Cases:  [27.0]
+Training cases:  [20.0, 18.0, 11.0, 7.0]
+MSE:  0.008557645280945242
+R2:  0.6598448308348561
+Quality metric (sum of introduced error):  0.069
+Replication:  54
+Selected sites:  [18.0, 16.0, 19.0, 29.0, 3.0]
+[18. 16. 19. 29.  3.]
+Testing Cases:  [18.0]
+Training cases:  [16.0, 19.0, 29.0, 3.0]
+MSE:  0.02918377219594804
+R2:  -65.34633798129691
+Quality metric (sum of introduced error):  0
+Testing Cases:  [16.0]
+Training cases:  [18.0, 19.0, 29.0, 3.0]
+MSE:  0.0005010339749735322
+R2:  0.9606529500757807
+Quality metric (sum of introduced error):  0
+Testing Cases:  [19.0]
+Training cases:  [18.0, 16.0, 29.0, 3.0]
+MSE:  0.02187707459719613
+R2:  0.40638374054414983
+Quality metric (sum of introduced error):  0.115
+Testing Cases:  [29.0]
+Training cases:  [18.0, 16.0, 19.0, 3.0]
+MSE:  0.009735885280755207
+R2:  -0.10647828681497473
+Quality metric (sum of introduced error):  0
+Testing Cases:  [3.0]
+Training cases:  [18.0, 16.0, 19.0, 29.0]
+MSE:  0.010285025915821724
+R2:  0.2876956821617165
+Quality metric (sum of introduced error):  0.147
+Replication:  55
+Selected sites:  [27.0, 25.0, 7.0, 3.0, 17.0]
+[27. 25.  7.  3. 17.]
+Testing Cases:  [27.0]
+Training cases:  [25.0, 7.0, 3.0, 17.0]
+MSE:  0.0025633653103542464
+R2:  0.8981095929838191
+Quality metric (sum of introduced error):  0.069
+Testing Cases:  [25.0]
+Training cases:  [27.0, 7.0, 3.0, 17.0]
+MSE:  0.005436815885468673
+R2:  0.25900499252809983
+Quality metric (sum of introduced error):  0
+Testing Cases:  [7.0]
+Training cases:  [27.0, 25.0, 3.0, 17.0]
+MSE:  0.0022887940993263894
+R2:  0.8920497465014505
+Quality metric (sum of introduced error):  0
+Testing Cases:  [3.0]
+Training cases:  [27.0, 25.0, 7.0, 17.0]
+MSE:  0.00026601466024257537
+R2:  0.9815767706712744
+Quality metric (sum of introduced error):  0.062
+Testing Cases:  [17.0]
+Training cases:  [27.0, 25.0, 7.0, 3.0]
+MSE:  0.0002539427305948214
+R2:  0.9846738994086025
+Quality metric (sum of introduced error):  0.065
+Replication:  56
+Selected sites:  [29.0, 15.0, 7.0, 12.0, 11.0]
+[29. 15.  7. 12. 11.]
+Testing Cases:  [29.0]
+Training cases:  [15.0, 7.0, 12.0, 11.0]
+MSE:  0.0017016176525995652
+R2:  0.806612040839861
+Quality metric (sum of introduced error):  0
+Testing Cases:  [15.0]
+Training cases:  [29.0, 7.0, 12.0, 11.0]
+MSE:  0.14102501710206727
+R2:  0.0014187050194188755
+Quality metric (sum of introduced error):  0.154
+Testing Cases:  [7.0]
+Training cases:  [29.0, 15.0, 12.0, 11.0]
+MSE:  0.004038089010825207
+R2:  0.8095448024369774
+Quality metric (sum of introduced error):  0
+Testing Cases:  [12.0]
+Training cases:  [29.0, 15.0, 7.0, 11.0]
+MSE:  0.01497918257533224
+R2:  -1.78678311284663
+Quality metric (sum of introduced error):  0
+Testing Cases:  [11.0]
+Training cases:  [29.0, 15.0, 7.0, 12.0]
+MSE:  0.038337362145613126
+R2:  -6.053159752135605
+Quality metric (sum of introduced error):  0
+Replication:  57
+Selected sites:  [11.0, 22.0, 19.0, 8.0, 18.0]
+[11. 22. 19.  8. 18.]
+Testing Cases:  [11.0]
+Training cases:  [22.0, 19.0, 8.0, 18.0]
+MSE:  0.007060465725496817
+R2:  -0.2989572025655247
+Quality metric (sum of introduced error):  0
+Testing Cases:  [22.0]
+Training cases:  [11.0, 19.0, 8.0, 18.0]
+MSE:  0.00017722550052265862
+R2:  0.9813081745855236
+Quality metric (sum of introduced error):  0
+Testing Cases:  [19.0]
+Training cases:  [11.0, 22.0, 8.0, 18.0]
+MSE:  0.045301498741167484
+R2:  -0.22921856443833288
+Quality metric (sum of introduced error):  0.332
+Testing Cases:  [8.0]
+Training cases:  [11.0, 22.0, 19.0, 18.0]
+MSE:  0.006208778518311291
+R2:  0.4165918549737394
+Quality metric (sum of introduced error):  0.098
+Testing Cases:  [18.0]
+Training cases:  [11.0, 22.0, 19.0, 8.0]
+MSE:  0.011615601533524839
+R2:  -25.40688873340059
+Quality metric (sum of introduced error):  0
+Replication:  58
+Selected sites:  [10.0, 13.0, 19.0, 12.0, 4.0]
+[10. 13. 19. 12.  4.]
+Testing Cases:  [10.0]
+Training cases:  [13.0, 19.0, 12.0, 4.0]
+MSE:  0.001753781071142486
+R2:  0.8216717825606994
+Quality metric (sum of introduced error):  0
+Testing Cases:  [13.0]
+Training cases:  [10.0, 19.0, 12.0, 4.0]
+MSE:  0.06733689965440598
+R2:  -46.94722341539059
+Quality metric (sum of introduced error):  0
+Testing Cases:  [19.0]
+Training cases:  [10.0, 13.0, 12.0, 4.0]
+MSE:  0.038710119737800856
+R2:  -0.0503669665589801
+Quality metric (sum of introduced error):  0.115
+Testing Cases:  [12.0]
+Training cases:  [10.0, 13.0, 19.0, 4.0]
+MSE:  0.0017352414987663383
+R2:  0.6771691858916106
+Quality metric (sum of introduced error):  0
+Testing Cases:  [4.0]
+Training cases:  [10.0, 13.0, 19.0, 12.0]
+MSE:  0.061757576681520675
+R2:  0.14792875334663114
+Quality metric (sum of introduced error):  0.094
+Replication:  59
+Selected sites:  [19.0, 22.0, 7.0, 3.0, 25.0]
+[19. 22.  7.  3. 25.]
+Testing Cases:  [19.0]
+Training cases:  [22.0, 7.0, 3.0, 25.0]
+MSE:  0.016051339304488946
+R2:  0.5644602318808845
+Quality metric (sum of introduced error):  0.115
+Testing Cases:  [22.0]
+Training cases:  [19.0, 7.0, 3.0, 25.0]
+MSE:  0.0012294208222357814
+R2:  0.870334013432704
+Quality metric (sum of introduced error):  0
+Testing Cases:  [7.0]
+Training cases:  [19.0, 22.0, 3.0, 25.0]
+MSE:  0.0036426093161161482
+R2:  0.8281974777955587
+Quality metric (sum of introduced error):  0
+Testing Cases:  [3.0]
+Training cases:  [19.0, 22.0, 7.0, 25.0]
+MSE:  0.0011353911947123636
+R2:  0.9213668436960307
+Quality metric (sum of introduced error):  0
+Testing Cases:  [25.0]
+Training cases:  [19.0, 22.0, 7.0, 3.0]
+MSE:  0.0015542380505587918
+R2:  0.7881696455888639
+Quality metric (sum of introduced error):  0
+Replication:  60
+Selected sites:  [22.0, 1.0, 4.0, 30.0, 12.0]
+[22.  1.  4. 30. 12.]
+Testing Cases:  [22.0]
+Training cases:  [1.0, 4.0, 30.0, 12.0]
+MSE:  0.0011362366888167238
+R2:  0.8801620661008109
+Quality metric (sum of introduced error):  0
+Testing Cases:  [1.0]
+Training cases:  [22.0, 4.0, 30.0, 12.0]
+MSE:  0.0059821492034256634
+R2:  0.6984679608433179
+Quality metric (sum of introduced error):  0.063
+Testing Cases:  [4.0]
+Training cases:  [22.0, 1.0, 30.0, 12.0]
+MSE:  0.034905339191850446
+R2:  0.5184099267133621
+Quality metric (sum of introduced error):  0.094
+Testing Cases:  [30.0]
+Training cases:  [22.0, 1.0, 4.0, 12.0]
+MSE:  0.012834102419397461
+R2:  -3.0977654180128393
+Quality metric (sum of introduced error):  0
+Testing Cases:  [12.0]
+Training cases:  [22.0, 1.0, 4.0, 30.0]
+MSE:  0.00819556098299374
+R2:  -0.5247327971903768
+Quality metric (sum of introduced error):  0
+Replication:  61
+Selected sites:  [10.0, 18.0, 20.0, 11.0, 17.0]
+[10. 18. 20. 11. 17.]
+Testing Cases:  [10.0]
+Training cases:  [18.0, 20.0, 11.0, 17.0]
+MSE:  0.00019896894007476618
+R2:  0.979768411808547
+Quality metric (sum of introduced error):  0
+Testing Cases:  [18.0]
+Training cases:  [10.0, 20.0, 11.0, 17.0]
+MSE:  0.015097353974950236
+R2:  -33.32229880085198
+Quality metric (sum of introduced error):  0
+Testing Cases:  [20.0]
+Training cases:  [10.0, 18.0, 11.0, 17.0]
+MSE:  0.004024699849453591
+R2:  0.6929843283543509
+Quality metric (sum of introduced error):  0.064
+Testing Cases:  [11.0]
+Training cases:  [10.0, 18.0, 20.0, 17.0]
+MSE:  0.00381035251915851
+R2:  0.29898606671214134
+Quality metric (sum of introduced error):  0
+Testing Cases:  [17.0]
+Training cases:  [10.0, 18.0, 20.0, 11.0]
+MSE:  0.004722733181395162
+R2:  0.7149708375788049
+Quality metric (sum of introduced error):  0.065
+Replication:  62
+Selected sites:  [3.0, 10.0, 17.0, 1.0, 13.0]
+[ 3. 10. 17.  1. 13.]
+Testing Cases:  [3.0]
+Training cases:  [10.0, 17.0, 1.0, 13.0]
+MSE:  0.0021012566950009953
+R2:  0.8544744340961412
+Quality metric (sum of introduced error):  0.062
+Testing Cases:  [10.0]
+Training cases:  [3.0, 17.0, 1.0, 13.0]
+MSE:  0.0014728429964499462
+R2:  0.8502381680093193
+Quality metric (sum of introduced error):  0
+Testing Cases:  [17.0]
+Training cases:  [3.0, 10.0, 1.0, 13.0]
+MSE:  0.0011406882942228546
+R2:  0.9311565111561195
+Quality metric (sum of introduced error):  0.065
+Testing Cases:  [1.0]
+Training cases:  [3.0, 10.0, 17.0, 13.0]
+MSE:  0.003524946791816799
+R2:  0.8223239912761344
+Quality metric (sum of introduced error):  0.063
+Testing Cases:  [13.0]
+Training cases:  [3.0, 10.0, 17.0, 1.0]
+MSE:  0.017077168512001376
+R2:  -11.159793785421591
+Quality metric (sum of introduced error):  0
+Replication:  63
+Selected sites:  [19.0, 14.0, 18.0, 28.0, 29.0]
+[19. 14. 18. 28. 29.]
+Testing Cases:  [19.0]
+Training cases:  [14.0, 18.0, 28.0, 29.0]
+MSE:  0.007107869672263577
+R2:  0.807133856549104
+Quality metric (sum of introduced error):  0
+Testing Cases:  [14.0]
+Training cases:  [19.0, 18.0, 28.0, 29.0]
+MSE:  0.001970206012707726
+R2:  0.7542150070499044
+Quality metric (sum of introduced error):  0
+Testing Cases:  [18.0]
+Training cases:  [19.0, 14.0, 28.0, 29.0]
+MSE:  0.028137133117563027
+R2:  -62.96691048396308
+Quality metric (sum of introduced error):  0
+Testing Cases:  [28.0]
+Training cases:  [19.0, 14.0, 18.0, 29.0]
+MSE:  0.007330533058687589
+R2:  0.7954697746859255
+Quality metric (sum of introduced error):  0
+Testing Cases:  [29.0]
+Training cases:  [19.0, 14.0, 18.0, 28.0]
+MSE:  0.007491552586142407
+R2:  0.14858895395117566
+Quality metric (sum of introduced error):  0
+Replication:  64
+Selected sites:  [22.0, 27.0, 28.0, 20.0, 8.0]
+[22. 27. 28. 20.  8.]
+Testing Cases:  [22.0]
+Training cases:  [27.0, 28.0, 20.0, 8.0]
+MSE:  0.0022473392542303825
+R2:  0.7629750071897613
+Quality metric (sum of introduced error):  0
+Testing Cases:  [27.0]
+Training cases:  [22.0, 28.0, 20.0, 8.0]
+MSE:  0.0006623041316213987
+R2:  0.973674279952678
+Quality metric (sum of introduced error):  0
+Testing Cases:  [28.0]
+Training cases:  [22.0, 27.0, 20.0, 8.0]
+MSE:  0.009227395287652996
+R2:  0.7425451570661652
+Quality metric (sum of introduced error):  0.099
+Testing Cases:  [20.0]
+Training cases:  [22.0, 27.0, 28.0, 8.0]
+MSE:  0.0010283137561517494
+R2:  0.921557271270738
+Quality metric (sum of introduced error):  0
+Testing Cases:  [8.0]
+Training cases:  [22.0, 27.0, 28.0, 20.0]
+MSE:  0.0021758247551469925
+R2:  0.7955485317186377
+Quality metric (sum of introduced error):  0
+Replication:  65
+Selected sites:  [11.0, 14.0, 3.0, 23.0, 29.0]
+[11. 14.  3. 23. 29.]
+Testing Cases:  [11.0]
+Training cases:  [14.0, 3.0, 23.0, 29.0]
+MSE:  0.004988105074618754
+R2:  0.08230770238973861
+Quality metric (sum of introduced error):  0
+Testing Cases:  [14.0]
+Training cases:  [11.0, 3.0, 23.0, 29.0]
+MSE:  0.004763479086392753
+R2:  0.40575164926133334
+Quality metric (sum of introduced error):  0
+Testing Cases:  [3.0]
+Training cases:  [11.0, 14.0, 23.0, 29.0]
+MSE:  0.0024166704055585773
+R2:  0.8326300022226207
+Quality metric (sum of introduced error):  0.062
+Testing Cases:  [23.0]
+Training cases:  [11.0, 14.0, 3.0, 29.0]
+MSE:  0.02784910914577036
+R2:  0.33345092716702507
+Quality metric (sum of introduced error):  0.105
+Testing Cases:  [29.0]
+Training cases:  [11.0, 14.0, 3.0, 23.0]
+MSE:  0.0005409219306651651
+R2:  0.9385245045639431
+Quality metric (sum of introduced error):  0
+Replication:  66
+Selected sites:  [22.0, 3.0, 29.0, 15.0, 23.0]
+[22.  3. 29. 15. 23.]
+Testing Cases:  [22.0]
+Training cases:  [3.0, 29.0, 15.0, 23.0]
+MSE:  0.03064876095368933
+R2:  -2.232499201451775
+Quality metric (sum of introduced error):  0
+Testing Cases:  [3.0]
+Training cases:  [22.0, 29.0, 15.0, 23.0]
+MSE:  0.00036728924514800305
+R2:  0.9745628530879998
+Quality metric (sum of introduced error):  0
+Testing Cases:  [29.0]
+Training cases:  [22.0, 3.0, 15.0, 23.0]
+MSE:  0.002254165495416462
+R2:  0.7438152665483787
+Quality metric (sum of introduced error):  0
+Testing Cases:  [15.0]
+Training cases:  [22.0, 3.0, 29.0, 23.0]
+MSE:  0.10060485867164178
+R2:  0.2876290170491054
+Quality metric (sum of introduced error):  0
+Testing Cases:  [23.0]
+Training cases:  [22.0, 3.0, 29.0, 15.0]
+MSE:  0.008175398368177163
+R2:  0.8043275217952052
+Quality metric (sum of introduced error):  0
+Replication:  67
+Selected sites:  [20.0, 21.0, 10.0, 3.0, 4.0]
+[20. 21. 10.  3.  4.]
+Testing Cases:  [20.0]
+Training cases:  [21.0, 10.0, 3.0, 4.0]
+MSE:  0.007673392271684652
+R2:  0.414651583915845
+Quality metric (sum of introduced error):  0
+Testing Cases:  [21.0]
+Training cases:  [20.0, 10.0, 3.0, 4.0]
+MSE:  0.006104172820583531
+R2:  0.6491672432035586
+Quality metric (sum of introduced error):  0
+Testing Cases:  [10.0]
+Training cases:  [20.0, 21.0, 3.0, 4.0]
+MSE:  0.0008922962105107909
+R2:  0.9092694092401318
+Quality metric (sum of introduced error):  0
+Testing Cases:  [3.0]
+Training cases:  [20.0, 21.0, 10.0, 4.0]
+MSE:  0.008780952377374831
+R2:  0.39186246643145073
+Quality metric (sum of introduced error):  0
+Testing Cases:  [4.0]
+Training cases:  [20.0, 21.0, 10.0, 3.0]
+MSE:  0.0362527304974332
+R2:  0.49981992608237324
+Quality metric (sum of introduced error):  0.094
+Replication:  68
+Selected sites:  [10.0, 4.0, 24.0, 27.0, 12.0]
+[10.  4. 24. 27. 12.]
+Testing Cases:  [10.0]
+Training cases:  [4.0, 24.0, 27.0, 12.0]
+MSE:  0.002855893840643763
+R2:  0.7096065944729864
+Quality metric (sum of introduced error):  0
+Testing Cases:  [4.0]
+Training cases:  [10.0, 24.0, 27.0, 12.0]
+MSE:  0.02438971427534557
+R2:  0.663494337621386
+Quality metric (sum of introduced error):  0.094
+Testing Cases:  [24.0]
+Training cases:  [10.0, 4.0, 27.0, 12.0]
+MSE:  0.00021290072106090743
+R2:  0.9963036377412097
+Quality metric (sum of introduced error):  0
+Testing Cases:  [27.0]
+Training cases:  [10.0, 4.0, 24.0, 12.0]
+MSE:  0.0005742425391824379
+R2:  0.9771746126831926
+Quality metric (sum of introduced error):  0.069
+Testing Cases:  [12.0]
+Training cases:  [10.0, 4.0, 24.0, 27.0]
+MSE:  0.02026349777253773
+R2:  -2.769896862910821
+Quality metric (sum of introduced error):  0
+Replication:  69
+Selected sites:  [17.0, 7.0, 23.0, 12.0, 24.0]
+[17.  7. 23. 12. 24.]
+Testing Cases:  [17.0]
+Training cases:  [7.0, 23.0, 12.0, 24.0]
+MSE:  0.0005435218780363935
+R2:  0.9671970488901211
+Quality metric (sum of introduced error):  0.065
+Testing Cases:  [7.0]
+Training cases:  [17.0, 23.0, 12.0, 24.0]
+MSE:  0.002026449269772535
+R2:  0.9044231578374493
+Quality metric (sum of introduced error):  0
+Testing Cases:  [23.0]
+Training cases:  [17.0, 7.0, 12.0, 24.0]
+MSE:  0.00829183148055541
+R2:  0.8015407761691044
+Quality metric (sum of introduced error):  0.105
+Testing Cases:  [12.0]
+Training cases:  [17.0, 7.0, 23.0, 24.0]
+MSE:  0.016722649816992022
+R2:  -2.1111442749076383
+Quality metric (sum of introduced error):  0
+Testing Cases:  [24.0]
+Training cases:  [17.0, 7.0, 23.0, 12.0]
+MSE:  0.011081197274733607
+R2:  0.807609297026206
+Quality metric (sum of introduced error):  0
+Replication:  70
+Selected sites:  [3.0, 24.0, 4.0, 18.0, 27.0]
+[ 3. 24.  4. 18. 27.]
+Testing Cases:  [3.0]
+Training cases:  [24.0, 4.0, 18.0, 27.0]
+MSE:  0.0069602805152227075
+R2:  0.5179557246684195
+Quality metric (sum of introduced error):  0.178
+Testing Cases:  [24.0]
+Training cases:  [3.0, 4.0, 18.0, 27.0]
+MSE:  0.019959903187404496
+R2:  0.6534580415539134
+Quality metric (sum of introduced error):  0.07
+Testing Cases:  [4.0]
+Training cases:  [3.0, 24.0, 18.0, 27.0]
+MSE:  0.04210296191589816
+R2:  0.41910409742140653
+Quality metric (sum of introduced error):  0.094
+Testing Cases:  [18.0]
+Training cases:  [3.0, 24.0, 4.0, 27.0]
+MSE:  0.0808504270691785
+R2:  -182.80522313043153
+Quality metric (sum of introduced error):  0
+Testing Cases:  [27.0]
+Training cases:  [3.0, 24.0, 4.0, 18.0]
+MSE:  0.0015154749201500078
+R2:  0.9397618607799763
+Quality metric (sum of introduced error):  0.069
+Replication:  71
+Selected sites:  [23.0, 21.0, 15.0, 13.0, 11.0]
+[23. 21. 15. 13. 11.]
+Testing Cases:  [23.0]
+Training cases:  [21.0, 15.0, 13.0, 11.0]
+MSE:  0.0017306486459829624
+R2:  0.9585781274244176
+Quality metric (sum of introduced error):  0
+Testing Cases:  [21.0]
+Training cases:  [23.0, 15.0, 13.0, 11.0]
+MSE:  0.02438226933897264
+R2:  -0.4013526517958883
+Quality metric (sum of introduced error):  0
+Testing Cases:  [15.0]
+Training cases:  [23.0, 21.0, 13.0, 11.0]
+MSE:  0.10824472817181892
+R2:  0.23353201400851709
+Quality metric (sum of introduced error):  0
+Testing Cases:  [13.0]
+Training cases:  [23.0, 21.0, 15.0, 11.0]
+MSE:  0.04788167884117053
+R2:  -33.094138053345404
+Quality metric (sum of introduced error):  0
+Testing Cases:  [11.0]
+Training cases:  [23.0, 21.0, 15.0, 13.0]
+MSE:  0.0007985350563785475
+R2:  0.8530886058637451
+Quality metric (sum of introduced error):  0
+Replication:  72
+Selected sites:  [27.0, 28.0, 15.0, 12.0, 13.0]
+[27. 28. 15. 12. 13.]
+Testing Cases:  [27.0]
+Training cases:  [28.0, 15.0, 12.0, 13.0]
+MSE:  0.0007744842925188272
+R2:  0.9692152657782995
+Quality metric (sum of introduced error):  0
+Testing Cases:  [28.0]
+Training cases:  [27.0, 15.0, 12.0, 13.0]
+MSE:  0.019446607304201974
+R2:  0.457417497243393
+Quality metric (sum of introduced error):  0.099
+Testing Cases:  [15.0]
+Training cases:  [27.0, 28.0, 12.0, 13.0]
+MSE:  0.19072623214675005
+R2:  -0.35050965989974503
+Quality metric (sum of introduced error):  0.413
+Testing Cases:  [12.0]
+Training cases:  [27.0, 28.0, 15.0, 13.0]
+MSE:  0.030584632737593136
+R2:  -4.690079388317375
+Quality metric (sum of introduced error):  0
+Testing Cases:  [13.0]
+Training cases:  [27.0, 28.0, 15.0, 12.0]
+MSE:  0.06085382213969716
+R2:  -42.33094960990807
+Quality metric (sum of introduced error):  0
+Replication:  73
+Selected sites:  [17.0, 8.0, 27.0, 25.0, 14.0]
+[17.  8. 27. 25. 14.]
+Testing Cases:  [17.0]
+Training cases:  [8.0, 27.0, 25.0, 14.0]
+MSE:  0.0007703409715887985
+R2:  0.9535079299470776
+Quality metric (sum of introduced error):  0.065
+Testing Cases:  [8.0]
+Training cases:  [17.0, 27.0, 25.0, 14.0]
+MSE:  0.0003867934879616683
+R2:  0.9636549329865078
+Quality metric (sum of introduced error):  0
+Testing Cases:  [27.0]
+Training cases:  [17.0, 8.0, 25.0, 14.0]
+MSE:  0.004267624141728794
+R2:  0.8303675410459797
+Quality metric (sum of introduced error):  0.069
+Testing Cases:  [25.0]
+Training cases:  [17.0, 8.0, 27.0, 14.0]
+MSE:  0.00043250332352717693
+R2:  0.9410532175082078
+Quality metric (sum of introduced error):  0
+Testing Cases:  [14.0]
+Training cases:  [17.0, 8.0, 27.0, 25.0]
+MSE:  0.00026067865641344755
+R2:  0.9674801003978438
+Quality metric (sum of introduced error):  0
+Replication:  74
+Selected sites:  [19.0, 15.0, 30.0, 4.0, 1.0]
+[19. 15. 30.  4.  1.]
+Testing Cases:  [19.0]
+Training cases:  [15.0, 30.0, 4.0, 1.0]
+MSE:  0.011632797385511519
+R2:  0.6843536991056303
+Quality metric (sum of introduced error):  0.115
+Testing Cases:  [15.0]
+Training cases:  [19.0, 30.0, 4.0, 1.0]
+MSE:  0.04134514878810376
+R2:  0.7072399417749531
+Quality metric (sum of introduced error):  0
+Testing Cases:  [30.0]
+Training cases:  [19.0, 15.0, 4.0, 1.0]
+MSE:  0.03409424188086967
+R2:  -9.8858571302684
+Quality metric (sum of introduced error):  0
+Testing Cases:  [4.0]
+Training cases:  [19.0, 15.0, 30.0, 1.0]
+MSE:  0.004516101302696669
+R2:  0.9376912069130284
+Quality metric (sum of introduced error):  0
+Testing Cases:  [1.0]
+Training cases:  [19.0, 15.0, 30.0, 4.0]
+MSE:  0.0005287222117711446
+R2:  0.9733495970693127
+Quality metric (sum of introduced error):  0.063
+Replication:  75
+Selected sites:  [19.0, 24.0, 23.0, 7.0, 4.0]
+[19. 24. 23.  7.  4.]
+Testing Cases:  [19.0]
+Training cases:  [24.0, 23.0, 7.0, 4.0]
+MSE:  0.0074662460913767475
+R2:  0.7974096098978443
+Quality metric (sum of introduced error):  0
+Testing Cases:  [24.0]
+Training cases:  [19.0, 23.0, 7.0, 4.0]
+MSE:  0.0016113561544564756
+R2:  0.9720237862740799
+Quality metric (sum of introduced error):  0
+Testing Cases:  [23.0]
+Training cases:  [19.0, 24.0, 7.0, 4.0]
+MSE:  0.0029222980701318095
+R2:  0.9300568266298104
+Quality metric (sum of introduced error):  0
+Testing Cases:  [7.0]
+Training cases:  [19.0, 24.0, 23.0, 4.0]
+MSE:  0.0200830340089663
+R2:  0.05279002033168767
+Quality metric (sum of introduced error):  0
+Testing Cases:  [4.0]
+Training cases:  [19.0, 24.0, 23.0, 7.0]
+MSE:  0.00993024053792273
+R2:  0.862992155952786
+Quality metric (sum of introduced error):  0
+Replication:  76
+Selected sites:  [22.0, 11.0, 21.0, 13.0, 8.0]
+[22. 11. 21. 13.  8.]
+Testing Cases:  [22.0]
+Training cases:  [11.0, 21.0, 13.0, 8.0]
+MSE:  7.695594139238876e-05
+R2:  0.9918835211813702
+Quality metric (sum of introduced error):  0
+Testing Cases:  [11.0]
+Training cases:  [22.0, 21.0, 13.0, 8.0]
+MSE:  0.0009353240477871119
+R2:  0.8279226957765142
+Quality metric (sum of introduced error):  0.022
+Testing Cases:  [21.0]
+Training cases:  [22.0, 11.0, 13.0, 8.0]
+MSE:  0.0037109543458582364
+R2:  0.7867156809333714
+Quality metric (sum of introduced error):  0
+Testing Cases:  [13.0]
+Training cases:  [22.0, 11.0, 21.0, 8.0]
+MSE:  0.005362387656494358
+R2:  -2.8182868579552194
+Quality metric (sum of introduced error):  0
+Testing Cases:  [8.0]
+Training cases:  [22.0, 11.0, 21.0, 13.0]
+MSE:  0.0026889678989615
+R2:  0.7473310137667829
+Quality metric (sum of introduced error):  0
+Replication:  77
+Selected sites:  [16.0, 4.0, 12.0, 14.0, 10.0]
+[16.  4. 12. 14. 10.]
+Testing Cases:  [16.0]
+Training cases:  [4.0, 12.0, 14.0, 10.0]
+MSE:  0.003127738287457244
+R2:  0.7543733944330351
+Quality metric (sum of introduced error):  0
+Testing Cases:  [4.0]
+Training cases:  [16.0, 12.0, 14.0, 10.0]
+MSE:  0.054626546277575176
+R2:  0.24631580628342564
+Quality metric (sum of introduced error):  0.094
+Testing Cases:  [12.0]
+Training cases:  [16.0, 4.0, 14.0, 10.0]
+MSE:  0.0023932619348430106
+R2:  0.5547486045318315
+Quality metric (sum of introduced error):  0
+Testing Cases:  [14.0]
+Training cases:  [16.0, 4.0, 12.0, 10.0]
+MSE:  0.0020779251028861445
+R2:  0.7407769525270138
+Quality metric (sum of introduced error):  0
+Testing Cases:  [10.0]
+Training cases:  [16.0, 4.0, 12.0, 14.0]
+MSE:  0.00042362967845533794
+R2:  0.9569244265111658
+Quality metric (sum of introduced error):  0
+Replication:  78
+Selected sites:  [19.0, 22.0, 28.0, 14.0, 24.0]
+[19. 22. 28. 14. 24.]
+Testing Cases:  [19.0]
+Training cases:  [22.0, 28.0, 14.0, 24.0]
+MSE:  0.004975221970926602
+R2:  0.865001481655023
+Quality metric (sum of introduced error):  0
+Testing Cases:  [22.0]
+Training cases:  [19.0, 28.0, 14.0, 24.0]
+MSE:  0.0011877466396189886
+R2:  0.8747293546418801
+Quality metric (sum of introduced error):  0
+Testing Cases:  [28.0]
+Training cases:  [19.0, 22.0, 14.0, 24.0]
+MSE:  0.0008522963120370639
+R2:  0.9762199617217872
+Quality metric (sum of introduced error):  0
+Testing Cases:  [14.0]
+Training cases:  [19.0, 22.0, 28.0, 24.0]
+MSE:  0.0028860358523590357
+R2:  0.639964401158785
+Quality metric (sum of introduced error):  0
+Testing Cases:  [24.0]
+Training cases:  [19.0, 22.0, 28.0, 14.0]
+MSE:  0.008466866495506604
+R2:  0.8529990616835275
+Quality metric (sum of introduced error):  0
+Replication:  79
+Selected sites:  [25.0, 21.0, 1.0, 27.0, 22.0]
+[25. 21.  1. 27. 22.]
+Testing Cases:  [25.0]
+Training cases:  [21.0, 1.0, 27.0, 22.0]
+MSE:  0.0021036759497482776
+R2:  0.7132856052255655
+Quality metric (sum of introduced error):  0
+Testing Cases:  [21.0]
+Training cases:  [25.0, 1.0, 27.0, 22.0]
+MSE:  0.0016055846806357472
+R2:  0.9077202241263338
+Quality metric (sum of introduced error):  0
+Testing Cases:  [1.0]
+Training cases:  [25.0, 21.0, 27.0, 22.0]
+MSE:  0.001717791486439497
+R2:  0.913414200793341
+Quality metric (sum of introduced error):  0.063
+Testing Cases:  [27.0]
+Training cases:  [25.0, 21.0, 1.0, 22.0]
+MSE:  0.003489634484215404
+R2:  0.8612916089258964
+Quality metric (sum of introduced error):  0.069
+Testing Cases:  [22.0]
+Training cases:  [25.0, 21.0, 1.0, 27.0]
+MSE:  0.002861153117986907
+R2:  0.6982365720069793
+Quality metric (sum of introduced error):  0
+Replication:  80
+Selected sites:  [14.0, 27.0, 7.0, 8.0, 13.0]
+[14. 27.  7.  8. 13.]
+Testing Cases:  [14.0]
+Training cases:  [27.0, 7.0, 8.0, 13.0]
+MSE:  0.004046639454324549
+R2:  0.49517804567766066
+Quality metric (sum of introduced error):  0
+Testing Cases:  [27.0]
+Training cases:  [14.0, 7.0, 8.0, 13.0]
+MSE:  0.021580188393369042
+R2:  0.14221583244318503
+Quality metric (sum of introduced error):  0.193
+Testing Cases:  [7.0]
+Training cases:  [14.0, 27.0, 8.0, 13.0]
+MSE:  0.005403663974442554
+R2:  0.7451378889723059
+Quality metric (sum of introduced error):  0
+Testing Cases:  [8.0]
+Training cases:  [14.0, 27.0, 7.0, 13.0]
+MSE:  0.0011382838744199454
+R2:  0.8930411059550458
+Quality metric (sum of introduced error):  0
+Testing Cases:  [13.0]
+Training cases:  [14.0, 27.0, 7.0, 8.0]
+MSE:  0.016513206178038316
+R2:  -10.758224539389001
+Quality metric (sum of introduced error):  0
+Replication:  81
+Selected sites:  [7.0, 29.0, 22.0, 8.0, 13.0]
+[ 7. 29. 22.  8. 13.]
+Testing Cases:  [7.0]
+Training cases:  [29.0, 22.0, 8.0, 13.0]
+MSE:  0.0051230614680133416
+R2:  0.7583724178931368
+Quality metric (sum of introduced error):  0
+Testing Cases:  [29.0]
+Training cases:  [7.0, 22.0, 8.0, 13.0]
+MSE:  0.002118000998506503
+R2:  0.7592902906392818
+Quality metric (sum of introduced error):  0
+Testing Cases:  [22.0]
+Training cases:  [7.0, 29.0, 8.0, 13.0]
+MSE:  0.0009233744248656874
+R2:  0.902612471168756
+Quality metric (sum of introduced error):  0
+Testing Cases:  [8.0]
+Training cases:  [7.0, 29.0, 22.0, 13.0]
+MSE:  0.0007837851095060648
+R2:  0.9263515979048793
+Quality metric (sum of introduced error):  0
+Testing Cases:  [13.0]
+Training cases:  [7.0, 29.0, 22.0, 8.0]
+MSE:  0.008682296698009247
+R2:  -5.1822273029304595
+Quality metric (sum of introduced error):  0
+Replication:  82
+Selected sites:  [14.0, 24.0, 11.0, 28.0, 15.0]
+[14. 24. 11. 28. 15.]
+Testing Cases:  [14.0]
+Training cases:  [24.0, 11.0, 28.0, 15.0]
+MSE:  0.04992974508904222
+R2:  -5.228781135351668
+Quality metric (sum of introduced error):  0
+Testing Cases:  [24.0]
+Training cases:  [14.0, 11.0, 28.0, 15.0]
+MSE:  0.015337532868348516
+R2:  0.7337111994970617
+Quality metric (sum of introduced error):  0
+Testing Cases:  [11.0]
+Training cases:  [14.0, 24.0, 28.0, 15.0]
+MSE:  0.025536071902589594
+R2:  -3.698027837358535
+Quality metric (sum of introduced error):  0
+Testing Cases:  [28.0]
+Training cases:  [14.0, 24.0, 11.0, 15.0]
+MSE:  0.005644551901718913
+R2:  0.842510570102763
+Quality metric (sum of introduced error):  0.099
+Testing Cases:  [15.0]
+Training cases:  [14.0, 24.0, 11.0, 28.0]
+MSE:  0.11013177603806222
+R2:  0.2201700535515313
+Quality metric (sum of introduced error):  0.154
+Replication:  83
+Selected sites:  [11.0, 27.0, 25.0, 13.0, 21.0]
+[11. 27. 25. 13. 21.]
+Testing Cases:  [11.0]
+Training cases:  [27.0, 25.0, 13.0, 21.0]
+MSE:  0.0013827554122196933
+R2:  0.7456060022212141
+Quality metric (sum of introduced error):  0
+Testing Cases:  [27.0]
+Training cases:  [11.0, 25.0, 13.0, 21.0]
+MSE:  0.015285438185734215
+R2:  0.39242389218807805
+Quality metric (sum of introduced error):  0.144
+Testing Cases:  [25.0]
+Training cases:  [11.0, 27.0, 13.0, 21.0]
+MSE:  0.004427378235710772
+R2:  0.3965833609300847
+Quality metric (sum of introduced error):  0
+Testing Cases:  [13.0]
+Training cases:  [11.0, 27.0, 25.0, 21.0]
+MSE:  0.006141966653787003
+R2:  -3.3733858979314517
+Quality metric (sum of introduced error):  0
+Testing Cases:  [21.0]
+Training cases:  [11.0, 27.0, 25.0, 13.0]
+MSE:  0.006238190392232893
+R2:  0.6414646837408966
+Quality metric (sum of introduced error):  0
+Replication:  84
+Selected sites:  [20.0, 13.0, 3.0, 4.0, 25.0]
+[20. 13.  3.  4. 25.]
+Testing Cases:  [20.0]
+Training cases:  [13.0, 3.0, 4.0, 25.0]
+MSE:  0.00084873387709448
+R2:  0.9352561405641332
+Quality metric (sum of introduced error):  0
+Testing Cases:  [13.0]
+Training cases:  [20.0, 3.0, 4.0, 25.0]
+MSE:  0.025839883628275176
+R2:  -17.399283003988682
+Quality metric (sum of introduced error):  0
+Testing Cases:  [3.0]
+Training cases:  [20.0, 13.0, 4.0, 25.0]
+MSE:  0.0006885273237970451
+R2:  0.952315046193922
+Quality metric (sum of introduced error):  0.062
+Testing Cases:  [4.0]
+Training cases:  [20.0, 13.0, 3.0, 25.0]
+MSE:  0.06182605991958915
+R2:  0.1469838879362413
+Quality metric (sum of introduced error):  0.094
+Testing Cases:  [25.0]
+Training cases:  [20.0, 13.0, 3.0, 4.0]
+MSE:  0.017305856672883244
+R2:  -1.3586513990486764
+Quality metric (sum of introduced error):  0
+Replication:  85
+Selected sites:  [18.0, 13.0, 3.0, 1.0, 15.0]
+[18. 13.  3.  1. 15.]
+Testing Cases:  [18.0]
+Training cases:  [13.0, 3.0, 1.0, 15.0]
+MSE:  0.039343621291000025
+R2:  -88.44372160166667
+Quality metric (sum of introduced error):  0
+Testing Cases:  [13.0]
+Training cases:  [18.0, 3.0, 1.0, 15.0]
+MSE:  0.014203532469708402
+R2:  -9.113621923612023
+Quality metric (sum of introduced error):  0
+Testing Cases:  [3.0]
+Training cases:  [18.0, 13.0, 1.0, 15.0]
+MSE:  0.011998061790964389
+R2:  0.16905690959441222
+Quality metric (sum of introduced error):  0.23
+Testing Cases:  [1.0]
+Training cases:  [18.0, 13.0, 3.0, 15.0]
+MSE:  0.004414010383581747
+R2:  0.7775104721463653
+Quality metric (sum of introduced error):  0.063
+Testing Cases:  [15.0]
+Training cases:  [18.0, 13.0, 3.0, 1.0]
+MSE:  0.20034610490472224
+R2:  -0.41862682941763096
+Quality metric (sum of introduced error):  0.413
+Replication:  86
+Selected sites:  [30.0, 8.0, 25.0, 13.0, 10.0]
+[30.  8. 25. 13. 10.]
+Testing Cases:  [30.0]
+Training cases:  [8.0, 25.0, 13.0, 10.0]
+MSE:  0.003177072953788941
+R2:  -0.014398923672563457
+Quality metric (sum of introduced error):  0
+Testing Cases:  [8.0]
+Training cases:  [30.0, 25.0, 13.0, 10.0]
+MSE:  0.005927128639178599
+R2:  0.4430570981849543
+Quality metric (sum of introduced error):  0.098
+Testing Cases:  [25.0]
+Training cases:  [30.0, 8.0, 13.0, 10.0]
+MSE:  0.00019355766484601664
+R2:  0.9736196210557434
+Quality metric (sum of introduced error):  0
+Testing Cases:  [13.0]
+Training cases:  [30.0, 8.0, 25.0, 10.0]
+MSE:  0.0037092906197688314
+R2:  -1.641199505344789
+Quality metric (sum of introduced error):  0
+Testing Cases:  [10.0]
+Training cases:  [30.0, 8.0, 25.0, 13.0]
+MSE:  0.00303878394392668
+R2:  0.6910099368613919
+Quality metric (sum of introduced error):  0
+Replication:  87
+Selected sites:  [29.0, 19.0, 22.0, 28.0, 18.0]
+[29. 19. 22. 28. 18.]
+Testing Cases:  [29.0]
+Training cases:  [19.0, 22.0, 28.0, 18.0]
+MSE:  0.007446684879445621
+R2:  0.15368814542761067
+Quality metric (sum of introduced error):  0
+Testing Cases:  [19.0]
+Training cases:  [29.0, 22.0, 28.0, 18.0]
+MSE:  0.007793121700422601
+R2:  0.7885401115795443
+Quality metric (sum of introduced error):  0
+Testing Cases:  [22.0]
+Training cases:  [29.0, 19.0, 28.0, 18.0]
+MSE:  0.0011533094266123391
+R2:  0.878361418714957
+Quality metric (sum of introduced error):  0
+Testing Cases:  [28.0]
+Training cases:  [29.0, 19.0, 22.0, 18.0]
+MSE:  0.007448889790959516
+R2:  0.792167486990718
+Quality metric (sum of introduced error):  0
+Testing Cases:  [18.0]
+Training cases:  [29.0, 19.0, 22.0, 28.0]
+MSE:  0.0300605969033335
+R2:  -67.33970977696302
+Quality metric (sum of introduced error):  0
+Replication:  88
+Selected sites:  [22.0, 1.0, 7.0, 4.0, 28.0]
+[22.  1.  7.  4. 28.]
+Testing Cases:  [22.0]
+Training cases:  [1.0, 7.0, 4.0, 28.0]
+MSE:  0.006551580264678721
+R2:  0.30901030531637563
+Quality metric (sum of introduced error):  0
+Testing Cases:  [1.0]
+Training cases:  [22.0, 7.0, 4.0, 28.0]
+MSE:  0.00016594950497663403
+R2:  0.9916352650308368
+Quality metric (sum of introduced error):  0
+Testing Cases:  [7.0]
+Training cases:  [22.0, 1.0, 4.0, 28.0]
+MSE:  0.001069941434210503
+R2:  0.9495365489252099
+Quality metric (sum of introduced error):  0
+Testing Cases:  [4.0]
+Training cases:  [22.0, 1.0, 7.0, 28.0]
+MSE:  0.01892655773529546
+R2:  0.738869681892883
+Quality metric (sum of introduced error):  0
+Testing Cases:  [28.0]
+Training cases:  [22.0, 1.0, 7.0, 4.0]
+MSE:  0.0007468987515535352
+R2:  0.979160673757415
+Quality metric (sum of introduced error):  0
+Replication:  89
+Selected sites:  [8.0, 22.0, 3.0, 16.0, 23.0]
+[ 8. 22.  3. 16. 23.]
+Testing Cases:  [8.0]
+Training cases:  [22.0, 3.0, 16.0, 23.0]
+MSE:  0.0035555028468360083
+R2:  0.6659070194901444
+Quality metric (sum of introduced error):  0
+Testing Cases:  [22.0]
+Training cases:  [8.0, 3.0, 16.0, 23.0]
+MSE:  0.0011732961078327856
+R2:  0.8762534401515696
+Quality metric (sum of introduced error):  0
+Testing Cases:  [3.0]
+Training cases:  [8.0, 22.0, 16.0, 23.0]
+MSE:  0.000922635106948319
+R2:  0.9361015737007049
+Quality metric (sum of introduced error):  0.062
+Testing Cases:  [16.0]
+Training cases:  [8.0, 22.0, 3.0, 23.0]
+MSE:  0.00016770655288967477
+R2:  0.9868297192630153
+Quality metric (sum of introduced error):  0
+Testing Cases:  [23.0]
+Training cases:  [8.0, 22.0, 3.0, 16.0]
+MSE:  0.02304085950555123
+R2:  0.4485330406688245
+Quality metric (sum of introduced error):  0.105
+Replication:  90
+Selected sites:  [22.0, 8.0, 18.0, 3.0, 14.0]
+[22.  8. 18.  3. 14.]
+Testing Cases:  [22.0]
+Training cases:  [8.0, 18.0, 3.0, 14.0]
+MSE:  1.1606047197985583e-05
+R2:  0.9987759199024003
+Quality metric (sum of introduced error):  0
+Testing Cases:  [8.0]
+Training cases:  [22.0, 18.0, 3.0, 14.0]
+MSE:  0.005326263217749964
+R2:  0.499517443789527
+Quality metric (sum of introduced error):  0.098
+Testing Cases:  [18.0]
+Training cases:  [22.0, 8.0, 3.0, 14.0]
+MSE:  0.013274597143478142
+R2:  -29.17844652614994
+Quality metric (sum of introduced error):  0
+Testing Cases:  [3.0]
+Training cases:  [22.0, 8.0, 18.0, 14.0]
+MSE:  0.004674150249261526
+R2:  0.6762849766229423
+Quality metric (sum of introduced error):  0.147
+Testing Cases:  [14.0]
+Training cases:  [22.0, 8.0, 18.0, 3.0]
+MSE:  0.0004608871145335427
+R2:  0.9425039130599683
+Quality metric (sum of introduced error):  0
+Replication:  91
+Selected sites:  [16.0, 3.0, 11.0, 27.0, 12.0]
+[16.  3. 11. 27. 12.]
+Testing Cases:  [16.0]
+Training cases:  [3.0, 11.0, 27.0, 12.0]
+MSE:  0.00021645060566263298
+R2:  0.9830017659229895
+Quality metric (sum of introduced error):  0
+Testing Cases:  [3.0]
+Training cases:  [16.0, 11.0, 27.0, 12.0]
+MSE:  0.004226184814550326
+R2:  0.7073094695117964
+Quality metric (sum of introduced error):  0.062
+Testing Cases:  [11.0]
+Training cases:  [16.0, 3.0, 27.0, 12.0]
+MSE:  0.00775082069287127
+R2:  -0.42596604193423837
+Quality metric (sum of introduced error):  0
+Testing Cases:  [27.0]
+Training cases:  [16.0, 3.0, 11.0, 12.0]
+MSE:  0.008985864486298536
+R2:  0.642823679401874
+Quality metric (sum of introduced error):  0.069
+Testing Cases:  [12.0]
+Training cases:  [16.0, 3.0, 11.0, 27.0]
+MSE:  0.007828610402469858
+R2:  -0.456463939666919
+Quality metric (sum of introduced error):  0
+Replication:  92
+Selected sites:  [27.0, 7.0, 16.0, 30.0, 22.0]
+[27.  7. 16. 30. 22.]
+Testing Cases:  [27.0]
+Training cases:  [7.0, 16.0, 30.0, 22.0]
+MSE:  0.006382027893332504
+R2:  0.7463227667887868
+Quality metric (sum of introduced error):  0.069
+Testing Cases:  [7.0]
+Training cases:  [27.0, 16.0, 30.0, 22.0]
+MSE:  0.005855164253489725
+R2:  0.723843020380958
+Quality metric (sum of introduced error):  0
+Testing Cases:  [16.0]
+Training cases:  [27.0, 7.0, 30.0, 22.0]
+MSE:  0.0009242805094063995
+R2:  0.9274146801132246
+Quality metric (sum of introduced error):  0
+Testing Cases:  [30.0]
+Training cases:  [27.0, 7.0, 16.0, 22.0]
+MSE:  0.007999228721613374
+R2:  -1.554051834326974
+Quality metric (sum of introduced error):  0
+Testing Cases:  [22.0]
+Training cases:  [27.0, 7.0, 16.0, 30.0]
+MSE:  0.0010419094371852426
+R2:  0.8901106824913603
+Quality metric (sum of introduced error):  0
+Replication:  93
+Selected sites:  [18.0, 24.0, 29.0, 8.0, 12.0]
+[18. 24. 29.  8. 12.]
+Testing Cases:  [18.0]
+Training cases:  [24.0, 29.0, 8.0, 12.0]
+MSE:  0.01882442769759495
+R2:  -41.79542185100138
+Quality metric (sum of introduced error):  0
+Testing Cases:  [24.0]
+Training cases:  [18.0, 29.0, 8.0, 12.0]
+MSE:  0.0723224576323763
+R2:  -0.25565569493209894
+Quality metric (sum of introduced error):  0.496
+Testing Cases:  [29.0]
+Training cases:  [18.0, 24.0, 8.0, 12.0]
+MSE:  0.004110369214193269
+R2:  0.5328586815533232
+Quality metric (sum of introduced error):  0.098
+Testing Cases:  [8.0]
+Training cases:  [18.0, 24.0, 29.0, 12.0]
+MSE:  9.869609693827962e-05
+R2:  0.9907260169345267
+Quality metric (sum of introduced error):  0
+Testing Cases:  [12.0]
+Training cases:  [18.0, 24.0, 29.0, 8.0]
+MSE:  0.0003450514534475684
+R2:  0.9358053379284923
+Quality metric (sum of introduced error):  0
+Replication:  94
+Selected sites:  [10.0, 18.0, 1.0, 29.0, 15.0]
+[10. 18.  1. 29. 15.]
+Testing Cases:  [10.0]
+Training cases:  [18.0, 1.0, 29.0, 15.0]
+MSE:  0.001197861606297134
+R2:  0.8781988650095367
+Quality metric (sum of introduced error):  0
+Testing Cases:  [18.0]
+Training cases:  [10.0, 1.0, 29.0, 15.0]
+MSE:  0.08638150843476439
+R2:  -195.37957408202527
+Quality metric (sum of introduced error):  0
+Testing Cases:  [1.0]
+Training cases:  [10.0, 18.0, 29.0, 15.0]
+MSE:  0.008194985807317812
+R2:  0.5869292628265494
+Quality metric (sum of introduced error):  0.063
+Testing Cases:  [29.0]
+Training cases:  [10.0, 18.0, 1.0, 15.0]
+MSE:  0.0009065508873528877
+R2:  0.8969709642397297
+Quality metric (sum of introduced error):  0
+Testing Cases:  [15.0]
+Training cases:  [10.0, 18.0, 1.0, 29.0]
+MSE:  0.2209253560741557
+R2:  -0.5643460479278499
+Quality metric (sum of introduced error):  0.672
+Replication:  95
+Selected sites:  [18.0, 27.0, 29.0, 12.0, 13.0]
+[18. 27. 29. 12. 13.]
+Testing Cases:  [18.0]
+Training cases:  [27.0, 29.0, 12.0, 13.0]
+MSE:  0.0029284923488224635
+R2:  -5.657629515679733
+Quality metric (sum of introduced error):  0
+Testing Cases:  [27.0]
+Training cases:  [18.0, 29.0, 12.0, 13.0]
+MSE:  0.017595902341620763
+R2:  0.30058597416341537
+Quality metric (sum of introduced error):  0.069
+Testing Cases:  [29.0]
+Training cases:  [18.0, 27.0, 12.0, 13.0]
+MSE:  0.0024962515485984034
+R2:  0.7163023128043535
+Quality metric (sum of introduced error):  0
+Testing Cases:  [12.0]
+Training cases:  [18.0, 27.0, 29.0, 13.0]
+MSE:  0.0008450980309809155
+R2:  0.8427748036587827
+Quality metric (sum of introduced error):  0
+Testing Cases:  [13.0]
+Training cases:  [18.0, 27.0, 29.0, 12.0]
+MSE:  0.003357757676646124
+R2:  -1.3908905566364358
+Quality metric (sum of introduced error):  0
+Replication:  96
+Selected sites:  [10.0, 28.0, 7.0, 17.0, 3.0]
+[10. 28.  7. 17.  3.]
+Testing Cases:  [10.0]
+Training cases:  [28.0, 7.0, 17.0, 3.0]
+MSE:  0.0030761281276981143
+R2:  0.6872127002317667
+Quality metric (sum of introduced error):  0
+Testing Cases:  [28.0]
+Training cases:  [10.0, 7.0, 17.0, 3.0]
+MSE:  0.008372921630097114
+R2:  0.766385945765389
+Quality metric (sum of introduced error):  0.099
+Testing Cases:  [7.0]
+Training cases:  [10.0, 28.0, 17.0, 3.0]
+MSE:  0.0010200784547245044
+R2:  0.9518883206626898
+Quality metric (sum of introduced error):  0
+Testing Cases:  [17.0]
+Training cases:  [10.0, 28.0, 7.0, 3.0]
+MSE:  0.0001672445076252784
+R2:  0.9899063614019592
+Quality metric (sum of introduced error):  0.065
+Testing Cases:  [3.0]
+Training cases:  [10.0, 28.0, 7.0, 17.0]
+MSE:  0.001125388094021759
+R2:  0.9220596228753937
+Quality metric (sum of introduced error):  0
+Replication:  97
+Selected sites:  [20.0, 12.0, 11.0, 19.0, 16.0]
+[20. 12. 11. 19. 16.]
+Testing Cases:  [20.0]
+Training cases:  [12.0, 11.0, 19.0, 16.0]
+MSE:  0.003303660049787795
+R2:  0.747987316566675
+Quality metric (sum of introduced error):  0.064
+Testing Cases:  [12.0]
+Training cases:  [20.0, 11.0, 19.0, 16.0]
+MSE:  0.0023394246348264766
+R2:  0.5647646970504185
+Quality metric (sum of introduced error):  0
+Testing Cases:  [11.0]
+Training cases:  [20.0, 12.0, 19.0, 16.0]
+MSE:  0.012169997131410752
+R2:  -1.2389890474166143
+Quality metric (sum of introduced error):  0
+Testing Cases:  [19.0]
+Training cases:  [20.0, 12.0, 11.0, 16.0]
+MSE:  0.023254387672122515
+R2:  0.3690114935371289
+Quality metric (sum of introduced error):  0.115
+Testing Cases:  [16.0]
+Training cases:  [20.0, 12.0, 11.0, 19.0]
+MSE:  0.00031617953623129004
+R2:  0.9751698834439995
+Quality metric (sum of introduced error):  0
+Replication:  98
+Selected sites:  [14.0, 12.0, 1.0, 27.0, 11.0]
+[14. 12.  1. 27. 11.]
+Testing Cases:  [14.0]
+Training cases:  [12.0, 1.0, 27.0, 11.0]
+MSE:  0.0004612824515477533
+R2:  0.9424545944076933
+Quality metric (sum of introduced error):  0
+Testing Cases:  [12.0]
+Training cases:  [14.0, 1.0, 27.0, 11.0]
+MSE:  0.006704911364933121
+R2:  -0.2474067707606289
+Quality metric (sum of introduced error):  0
+Testing Cases:  [1.0]
+Training cases:  [14.0, 12.0, 27.0, 11.0]
+MSE:  0.007710393571367035
+R2:  0.6113552809843812
+Quality metric (sum of introduced error):  0.063
+Testing Cases:  [27.0]
+Training cases:  [14.0, 12.0, 1.0, 11.0]
+MSE:  0.010852619859250227
+R2:  0.5686226031910843
+Quality metric (sum of introduced error):  0.069
+Testing Cases:  [11.0]
+Training cases:  [14.0, 12.0, 1.0, 27.0]
+MSE:  0.009542174951913666
+R2:  -0.7555324767271523
+Quality metric (sum of introduced error):  0
+Replication:  99
+Selected sites:  [17.0, 15.0, 13.0, 4.0, 30.0]
+[17. 15. 13.  4. 30.]
+Testing Cases:  [17.0]
+Training cases:  [15.0, 13.0, 4.0, 30.0]
+MSE:  0.0024379985321014578
+R2:  0.8528604829240642
+Quality metric (sum of introduced error):  0
+Testing Cases:  [15.0]
+Training cases:  [17.0, 13.0, 4.0, 30.0]
+MSE:  0.047117870376148244
+R2:  0.6663639899941445
+Quality metric (sum of introduced error):  0
+Testing Cases:  [13.0]
+Training cases:  [17.0, 15.0, 4.0, 30.0]
+MSE:  0.05877255130388681
+R2:  -40.84898120529344
+Quality metric (sum of introduced error):  0
+Testing Cases:  [4.0]
+Training cases:  [17.0, 15.0, 13.0, 30.0]
+MSE:  0.0020198009043559764
+R2:  0.9721327427816453
+Quality metric (sum of introduced error):  0
+Testing Cases:  [30.0]
+Training cases:  [17.0, 15.0, 13.0, 4.0]
+MSE:  0.0025630937421734067
+R2:  0.18163681755187377
+Quality metric (sum of introduced error):  0
+Replication:  100
+Selected sites:  [13.0, 16.0, 25.0, 21.0, 17.0]
+[13. 16. 25. 21. 17.]
+Testing Cases:  [13.0]
+Training cases:  [16.0, 25.0, 21.0, 17.0]
+MSE:  0.01503338959911809
+R2:  -9.704521495627848
+Quality metric (sum of introduced error):  0
+Testing Cases:  [16.0]
+Training cases:  [13.0, 25.0, 21.0, 17.0]
+MSE:  0.0006109127320162224
+R2:  0.9520239844668151
+Quality metric (sum of introduced error):  0
+Testing Cases:  [25.0]
+Training cases:  [13.0, 16.0, 21.0, 17.0]
+MSE:  0.0030884554710643394
+R2:  0.5790679447184054
+Quality metric (sum of introduced error):  0
+Testing Cases:  [21.0]
+Training cases:  [13.0, 16.0, 25.0, 17.0]
+MSE:  0.003624511449512916
+R2:  0.7916839215978614
+Quality metric (sum of introduced error):  0
+Testing Cases:  [17.0]
+Training cases:  [13.0, 16.0, 25.0, 21.0]
+MSE:  0.00439231394733059
+R2:  0.7349124929541898
+Quality metric (sum of introduced error):  0.065
